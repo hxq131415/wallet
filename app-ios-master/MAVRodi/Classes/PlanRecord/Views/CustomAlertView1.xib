@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aMT-zH-p8M" customClass="CustomAlertView1" customModule="MAVRodi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="温馨提示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiY-PK-pvE">
+                    <rect key="frame" x="150.5" y="31" width="74" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.81569241751269039" green="0.14464131665501714" blue="0.10596024723277282" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="等级：用户开始排单即为经理级，当直推人达到20人，团队超过300人则升级为高级经理。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWC-Wt-h63" customClass="TTTAttributedLabel">
+                    <rect key="frame" x="30" y="72" width="325" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UEo-8b-pYW">
+                    <rect key="frame" x="0.0" y="149" width="375" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sJ-Z5-wqc">
+                    <rect key="frame" x="20" y="150" width="335" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="JKR-He-i2g"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="知道了">
+                        <color key="titleColor" red="0.070588235289999995" green="0.61176470589999998" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="returnAction:" destination="aMT-zH-p8M" eventType="touchUpInside" id="ovb-mO-ktd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="PiY-PK-pvE" firstAttribute="centerX" secondItem="aMT-zH-p8M" secondAttribute="centerX" id="015-GH-14a"/>
+                <constraint firstItem="sWC-Wt-h63" firstAttribute="leading" secondItem="aMT-zH-p8M" secondAttribute="leading" constant="30" id="04S-KR-AO4"/>
+                <constraint firstItem="4sJ-Z5-wqc" firstAttribute="trailing" secondItem="sWC-Wt-h63" secondAttribute="trailing" id="CRh-Eh-C8i"/>
+                <constraint firstAttribute="bottom" secondItem="4sJ-Z5-wqc" secondAttribute="bottom" constant="5" id="ZhG-db-7Tt"/>
+                <constraint firstItem="4sJ-Z5-wqc" firstAttribute="centerX" secondItem="PiY-PK-pvE" secondAttribute="centerX" id="Zun-aV-mGe"/>
+                <constraint firstItem="sWC-Wt-h63" firstAttribute="top" secondItem="PiY-PK-pvE" secondAttribute="bottom" constant="19" id="pJy-Hd-DTc"/>
+                <constraint firstItem="PiY-PK-pvE" firstAttribute="top" secondItem="aMT-zH-p8M" secondAttribute="top" constant="31" id="qnt-Qt-Bbb"/>
+                <constraint firstAttribute="trailing" secondItem="sWC-Wt-h63" secondAttribute="trailing" constant="20" id="xwo-CX-rHd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="IknowBtn" destination="4sJ-Z5-wqc" id="gB6-zF-arh"/>
+                <outlet property="contentLabel" destination="sWC-Wt-h63" id="SmL-5v-A79"/>
+                <outlet property="titleLabel" destination="PiY-PK-pvE" id="Mfa-sy-EVe"/>
+            </connections>
+            <point key="canvasLocation" x="-199.19999999999999" y="286.50674662668666"/>
+        </view>
+    </objects>
+</document>

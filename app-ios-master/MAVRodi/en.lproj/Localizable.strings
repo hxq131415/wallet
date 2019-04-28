@@ -1,0 +1,630 @@
+/* 
+  Localizable.strings
+  MAVRodi
+
+  Created by rttx on 2018/9/3.
+  Copyright © 2018年 rttx. All rights reserved.
+*/
+
+//MARK: - MARK: - Common keys
+
+MR_Confirm_Return_Login_BtnTitle_Key = "Return to login";
+MR_Confirm_BtnTitle_Key = "Submit";
+MR_Request_Sending_Key = "Send in...";
+MR_Request_Send_Successful_Key = "Send a success";
+MR_Request_Send_Faild_Key = "Send failure";
+
+MR_Alert_title_key = "prompt";
+MR_Alert_cancel_btn_title_key = "cancel";
+MR_Alert_determine_btn_title_key = "Confirm";
+
+MR_Request_loading_faild_message = "Data loading failure";
+
+//MARK: - 金钱符号
+MR_money_uint_text_key = "$";
+//MARK: - 已复制
+MR_copyed_prompt_text_key = "Copied";
+MR_Request_title_key = "No Record";
+MR_Announcement_title_key = "No Announcement";
+
+//MARK: - 登录页面
+Login_NavigationTitle_Key = "LOG IN";
+Login_loginSuccessful_Msg_Key = "Login successful";
+Login_loginFailed_Msg_Key     = "Login failed";
+Login_loging_Prompt_Key = "Log in...";
+Login_userName_placeholder_Key = "E-mail";
+Login_password_placeholder_Key = "Password";
+Login_forgetPassword_button_title_Key = "forget password？";
+Login_login_button_title_Key = "LOG IN";
+Login_register_button_title_Key = "Go register！";
+Login_top_user_prompt_text_key = "Please fill in the correct account number and password";
+
+Login_loginEnterUserName_orEmail_Prompt_Key = "Please enter email address";
+Login_loginEnterPassword_Prompt_Key = "Please enter your login password";
+Login_loginEnterVerifyCode_Prompt_Key = "Please enter the verification code";
+Login_loginEnterVerify_email_address = "Please enter the correct email address";
+
+Login_loginEnterTips_ImportantAttention_title_Key = "Important attention:
+";
+Login_loginEnterTips_ImportantAttention_content_Key = "In order to ensure the safety of your assets, please follow the steps! Thank you for your cooperation.\n\n1.Plaease transfer your assets to other offline wallets;\n\n2. Delete the existing wallet after transferring;\n\n3. Create a new wallet again;\n\n4. Asset operations based on email alerts；";
+
+Login_loginEnterTips_ChangePayPasswrod_title_Key = "Modify payment password reminder";
+Login_loginEnterTips_ChangePayPasswrod_content_Key = "In order to ensure the security of your account, please pay you to modify the password in order to achieve the complexity of the system requirements";
+Login_loginEnterTips_selectBtn_title_Key = "I have learned";
+
+//MARK: - 忘记密码页面
+ForgetPassword_NavigationTitle_Key = "Retrieve Password";
+ForgetPassword_email_placeholder_Key = "E-mail";
+ForgetPassword_getVerifyCode_placeholder_Key = "Verification";
+ForgetPassword_newPassword_placeholder_Key = "Password";
+ForgetPassword_getVerifyCode_btnTitle_Key = "Get code";
+ForgetPassword_email_empty_prompt_Key = "Please enter email address";
+ForgetPassword_verifycode_empty_prompt_Key = "Please enter the verification code";
+ForgetPassword_newPassword_empty_prompt_Key = "Please enter a new password";
+
+//MARK: - 注册页面
+Register_Navigation_title_key = "Registered";
+Register_username_placeholder_key = "Username";
+Register_email_placeholder_key = "E-mail";
+Register_verifycode_placeholder_key = "Verification";
+Register_loginpassword_placeholder_key = "Login password";
+Register_paymentpassword_placeholder_key = "6-digit payment password";
+Register_invitationcode_placeholder_key = "Invitation code";
+Register_user_agree_left_title_key = "I have read and agree to the ";
+Register_user_agree_right_title_key = "User Agreement.";
+Register_getVerifycode_button_title_key = "Get code";
+
+Register_username_empty_prompt_Key = "Please enter user name";
+Register_email_empty_prompt_Key = "Please enter email address";
+Register_verifycode_empty_prompt_Key = "Please enter the verification code";
+Register_loginPassword_empty_prompt_Key = "Please enter your login password";
+Register_paymentPassword_empty_prompt_Key = "Please enter the payment password";
+Register_invitationcode_empty_prompt_Key = "Please enter the invitation code";
+Register_useragree_check_prompt_Key = "Please check and agree to user agreement";
+
+//MARK: - 个人中心
+UserCenter_my_information_title_key = "My information";
+UserCenter_my_sharing_title_key = "My  invitation";
+UserCenter_high_frequency_title_key = "High frequency trading";
+UserCenter_lucky_wheel_title_key = "Luck wheel";
+UserCenter_select_language_title_key = "Select language";
+UserCenter_announcement_title_key = "Announcement";
+UserCenter_version_title_key = "Version";
+//MARK: - 我的邀请
+MyInvitationPage_titleLbl_text_key = "Change your world， Everything is possible";
+
+//MARK: - 个人信息
+UserInformation_navigation_title_key = "Login account";
+UserInformation_current_account_title_key = "Current account";
+UserInformation_payment_password_title_key = "Change login password";
+UserInformation_nickname_modify_title_key = "Change nickname";
+UserInformation_avatar_modify_title_key = "Change avatar";
+UserInformation_exit_button_title_key = "LOG OUT";
+UserInformation_current_version_text_key = "The current version";
+
+//MARK: - 设置支付密码弹框
+SetPaymentPassword_top_title_key = "Change login password";
+SetPaymentPassword_password_placeholder_text_key = "Please enter your password";
+SetPaymentPassword_get_verifycode_btn_title_key = "Verification\ncode";
+
+//MARK: - 修改用户名信息
+ModifyUserName_username_top_title_label_key = "change username";
+ModifyUserName_username_textfield_placeholder_key = "Enter a nickname";
+ModifyUserName_quote_textfield_placeholder_key = "Enter your personal quotes";
+ModifyUserName_enterName_lbl_text_key = "Enter your user name";
+ModifyUserName_nickname_empty_prompt_Key = "please enter user name";
+ModifyUserName_quetes_empty_prompt_Key = "Please enter your personal quote";
+
+//MARK: - 修改头像
+ModifyHeadImage_uploading_text_key = "uploading...";
+ModifyHeadImage_upload_success_text_key = "upload successful";
+ModifyHeadImage_upload_faild_text_key = "upload failed";
+
+//MARK: - TabBar底部
+MR_TabBar_wallet_title_key = "WALLET";
+MR_TabBar_usercenter_title_key = "DATA";
+
+//MARK: - (邀请奖励，管理奖励)奖励页面
+MyReward_header_left_btn_title_key = "My invitation";
+MyReward_header_right_btn_title_key = "My team";
+
+MyReward_sharing_navigation_title_key = "Invitation Reward";
+MyReward_sharing_header_top_lbl_title_key = "My invitation reward (ETC)";
+
+MyReward_leadership_navigation_title_key = "Leadership Reward";
+MyReward_leadership_header_top_lbl_title_key = "My leadership reward (ETC)";
+
+MyReward_sharing_header_gray_reminder_text_key = "Get a direct push to participate in the MAVRODI amount of 10% as a reward";
+MyReward_leadership_header_gray_reminder_text_key = "Directly pushed 20 people, 300 people, won the Infinite Management Award";
+
+ManagetReward_leadership_navigation_title_key = "Leadership Reward";
+
+ManagetReward_content_view_principal_title_key = "Principal";
+ManagetReward_content_view_leadership_title_key = "Leadership Reward (ETC)";
+ManagetReward_content_view_sharing_title_key = "Invitation Reward (ETC)";
+
+ManagetReward_content_view_yesterday_title_key = "Yesterday";
+ManagetReward_content_view_weekly_title_key = "Weekly (AVG)";
+ManagetReward_content_view_monthly_title_key = "Monthly (AVG)";
+
+ManagetReward_content_view_myLevel_title_key = "My Level";
+ManagetReward_content_view_myDirectly_title_key = "My Directly Invited Amount";
+ManagetReward_content_view_thePrincipal_title_key = "The Principal of Invited";
+ManagetReward_content_view_myTeam_title_key = "My Team";
+ManagetReward_content_view_thePrincipalMyTeam_title_key = "The Principal of My Team";
+
+ManagetReward_content_view_directly_invited_amount_title_key = "Directly Invited Amount";
+ManagetReward_content_view_principal_invited_title_key = "The Principal of Invited";
+
+ManagerReward_alertView_sharing_title_key = "Invitation Reward Rules";
+ManagerReward_alertView_sharing_detail_key = "When the invited users transfer ETC to fund pool, you will get 10% of the new funds.\n\nNew fund: Refers to the amount of fund invested in the platform that exceeds the revenue the user has earned in the past.";
+ManagerReward_alertView_leadership_title_key = "Leadership Reward Rules";
+ManagerReward_alertView_leadership_detail_key = "Manager：The invited user start to queue.Senior Manager: Invited more than 20 users successfully; Team members exceed 300.\n\nReward Rules：Manager: Rewarded with 5% of the new fund of the invited users.\n\nSenior Manager: Rewarded with 5% of the new fund of the invited users; 1% of other team members’ new funds(Does not contain directly invited users)\n\nNew fund: Refers to the amount of fund invested in the platform that exceeds the revenue the user has earned in the past.\n\n";
+
+//MARK: - 我的邀请
+MyInvitation_myinvitation_lbl_text_key = "Your Invitation code";
+MyInvitation_scancode_download_reminder_text_key = "Scan to download Mavrodi\nJoin and enjoy M Plan";
+MyInvitation_bottom_lbl_text_key = "Change your world, everything is possible";
+
+//MARK: - 版本更新
+UpdatePage_navigationItem_title_key = "Version";
+UpdatePage_update_btn_title_key = "Update";
+UpdatePage_update_lbl_text_key = "Latest version already";
+
+//MARK: - 用户协议
+UserAgreement_Navigation_title_key = "User Agreement";
+
+//MARK: - 资金池首页
+PlanRecordHome_enter_fund_pool_text_key = "ENTER THE FUND POOL";
+PlanRecordHome_join_btn_title_key = "JOIN";
+PlanRecordHome_harvest_btn_title_key = "REWARD";
+PlanRecordHome_join_record_segment_title_key = "Participation record";
+PlanRecordHome_harvest_record_segment_title_key = "Revenue  record";
+PlanRecordHome_investment_title_key = "Principal（ETC）";
+PlanRecordHome_investment_title2_key = "Income asset (ETC)";
+PlanRecordHome_investment_title22_key = "Income asset (ETC)";
+
+PlanRecordHome_capitalin_text_key = "Capital in";
+PlanRecordHome_capitalout_text_key = "Capital out";
+
+PlanRecordHome_investment_title3_key = "Rate of return";
+PlanRecordHome_join_status_btn_all_record_title_key = "All records";
+PlanRecordHome_join_status_btn_queuing_record_title_key = "Line-up date";
+PlanRecordHome_join_status_btn_wait_transfer_record_title_key = "Remit";
+PlanRecordHome_join_status_btn_finish_record_title_key = "Completed";
+
+PlanRecordHome_harvest_status_btn_all_record_title_key = "All records";
+PlanRecordHome_harvest_status_btn_queuing_record_title_key = "Line-up date";
+PlanRecordHome_harvest_status_btn_wait_confirm_record_title_key = "Transfer";
+PlanRecordHome_harvest_status_btn_finish_record_title_key = "Completed";
+
+PlanRecordHome_join_cell_left_text_key = "Time";
+PlanRecordHome_join_cell_middle_text_key = "Amount";
+PlanRecordHome_join_cell_right_text_key = "Status";
+
+PlanRecordHome_harvest_cell_left_text_key = "Time";
+PlanRecordHome_harvest_cell_middle_text_key = "Amount";
+PlanRecordHome_harvest_cell_right_text_key = "Status";
+
+PlanRecordHome_join_record_status_queuing_text_key = "Order";
+PlanRecordHome_join_record_status_wait_transfer_text_key = "Pay";
+PlanRecordHome_join_record_status_harvest_text_key = "Stop";
+PlanRecordHome_join_record_status_finish_text_key = "End";
+PlanRecordHome_join_record_status_wait_text_key = "Wait";
+PlanRecordHome_join_record_status_failed_text_key = "Failed";
+
+PlanRecordHome_harvest_record_status_queuing_text_key = "Order";
+PlanRecordHome_harvest_record_status_wait_confirm_text_key = "Confirm";
+PlanRecordHome_harvest_record_status_finish_text_key = "End";
+PlanRecordHome_harvest_record_status_wait_text_key = "Wait";
+
+PlanJoinPage_enter_wallet_password_placeholder = "Enter wallet password";
+
+PlanRecordPage_join_title_key = "icon_join_en";
+PlanRecordPage_reward_title_key = "iocn_reward_en";
+PlanRecordPage_harvest_title_key = "iocn_harvest_en";
+
+//MARK: - 奖励页面
+RecordPage_navigation_title_key = "Reward Pool";
+RecordPage_invitation_lbl_text_key = "Invitation reward：";
+RecordPage_leadership_lbl_text_key = "Leadership reward：";
+RecordPage_bottom_lbl_text_key = "M Plan Reward Pool";
+
+//MARK: - 参与页面
+PlanJoinPage_navigation_title_key = "Join";
+PlanJoinPage_left_amount_text_key = "Amount";
+PlanJoinPage_left_consume_text_key = "Consume";
+PlanJoinPage_left_balance_text_key = "Balance：";
+PlanReservation_navigation_title_key = "Reservation";
+PlanJoinPage_input_payment_pwd_text_key = "Enter payment password";
+PlanJoinPage_bottom_btn_title_key = "Order Now";
+PlanJoinPage_bottom_btn_unfreeze_title_key = "Unfreeze Now";
+
+
+PlanJoinPage_bottom_investment_text_key = "Reasonable investment";
+PlanJoinPage_left_amount_textfield_placehorder_text_key = "Enter the amount of participation";
+PlanOrderPage_amount_textfield_placehorder_text_key = "Participate amount";
+PlanOrderPage_amount_Title_text_key = "Reservation amount";
+PlanOrderPage_amount_queueNo_text_key = "Queue No.";
+PlanOrderPage_amount_waiting_time_text_key = "Waiting time";
+PlanOrderPage_amount_bottom_lbl_text_key = "Each account can only make one reservation at the same time";
+PlanOrderPage_amount_takeNo_btn_title_key = "take No. now";
+
+PlanJoinPage_input_amount_empty_prompt_key = "Please enter the amount of participation";
+PlanJoinPage_input_paypwd_empty_prompt_key = "Please Enter wallet password";
+
+PlanJoinPage_contentView_bottom_reminder_text_key = "only the corresponding number of Mcoin will be consumed now，no transferred out of etc";
+PlanJoinPage_contentView_bottom_text_key = "Busy now，you can make reservation.";
+
+
+//MARK: - 收获页面
+PlanHarvestPage_navigation_title_key = "Withdraw";
+PlanHarvestPage_reminder_text_key = "Select the revenue you want to withdraw and enter your password.";
+PlanHarvestPage_input_payment_pwd_text_key = "Enter payment password";
+PlanHarvestPage_input_paypwd_empty_prompt_key = "Please enter the payment password";
+PlanHarvestPage_bottom_btn_title_key = "Extract Revenue";
+PlanHarvestPage_bottom_lbl_text_key = "The sharing rewards will be 3 times the amount of participation";
+PlanHarvestPage_cell_game_revenue_title_key = "Game revenue";
+PlanHarvestPage_cell_sharing_rewards_title_key = "Sharing revenue";
+PlanHarvestPage_cell_team_rewards_title_key = "team rewards";
+PlanHarvestPage_footer_view_text_key = "Game revenue: the sum of principal and 1%/day revenue;\nSharing revenue: pushing 10% of the dynamic revenue directly;\nLeadership Benefits: According to different levels, the dynamic benefits of the network are different.\nWarm Tip: Harvest once a day, share the total revenue and leadership revenue three times the cap, please keep an eye on account dynamics in time, so as to avoid bonus burns.";
+
+PlanHarvestDetailsPage_navigation_title_key = "Withdraw Detail";
+
+WalletReceiptConfirmPage_left_amount_text_key = "Receive Amount";
+WalletReceiptConfirmPage_amount_textfield_placehorder_text_key = "Enter the amount";
+WalletReceiptConfirmPage_left_fee_text_key = "trade fee";
+WalletReceiptConfirmPage_left_fee_textfield_placehorder_text_key = "trade fee";
+WalletReceiptConfirmPage_bottom_btn_title_key = "Confirm";
+
+//MARK: - 收获排单页面
+PlanConfirmHarvestPage_bottom_text_key = "Only the corresponding number of Mcoin will be consumed now, no transferred out of ETC";
+
+
+//MARK: - 收获（进场）
+PlanConfirmHarvest_navigation_title_key = "Withdraw";
+PlanConfirmHarvest_bottom_btn_title_key = "Order Now";
+PlanConfirmHarvest_input_max_amout_title_key = "max ";
+PlanConfirmHarvest_amount_left_lblinput_max_amou_text_key = "Withdraw";
+
+//MARK: - 排单详情页
+//MARK: - Common
+PlanJoinRecordDetailsPage_Common_bottom_investment_text_key = "Reasonable investment";
+PlanJoinRecordDetailsPage_Common_join_amount_title_key = "Participation\namount";
+PlanJoinRecordDetailsPage_Common_game_reward_title_key = "Game\nreward";
+PlanJoinRecordDetailsPage_Common_order_date_title_key = "Order\ndate";
+PlanJoinRecordDetailsPage_Common_order_time_title_key = "Order\ntime";
+PlanJoinRecordDetailsPage_Common_harvest_amount_title_key = "Withdraw\namount";
+PlanJoinRecordDetailsPage_Common_harvest_date_title_key = "Withdraw\ndate";
+
+PlanJoinRecordDetailsPage_Common_day_text_key = "D";
+PlanJoinRecordDetailsPage_Common_hour_text_key = "H";
+PlanJoinRecordDetailsPage_Common_minute_text_key = "M";
+PlanJoinRecordDetailsPage_Common_seccond_text_key = "S";
+
+PlanJoinRecordDetailsPage_amount_title_key = "Amount";
+PlanJoinRecordDetailsPage_reward_title_key = "Reward";
+PlanJoinRecordDetailsPage_date_title_key = "Date";
+PlanJoinRecordDetailsPage_time_title_key = "Time";
+PlanJoinRecordDetailsPage_step_title_key = "Step";
+
+//MARK: - 参与 - 排单期
+PlanJoinRecordDetailsPage_queuing_transfer_confirmTips_key = "超过72小时未转款，该用户已被锁定。\n请联系管理员解锁后进行转账操作";
+PlanJoinRecordDetailsPage_queuing_order_navigation_title_key = "Participate Detail";
+PlanJoinRecordDetailsPage_queuing_join_record_key = "participate list";
+PlanJoinRecordDetailsPage_queuing_wait_transfer_key = "wait account";
+PlanJoinRecordDetailsPage_queuing_join_transfer_key = "participate account";
+PlanJoinRecordDetailsPage_queuing_transfer_confirm_key = "account comfirm";
+PlanJoinRecordDetailsPage_queuing_harvest_confirm_key = "harvest comfirm";
+
+
+PlanJoinRecordDetailsPage_queuing_order_bottom_btn_title_key = "Waiting for the transfer...";
+PlanReservation_bottom_alert_Iknow_key = "I know";
+PlanJoinRecordDetailsPage_queuing_order_rule_title_key = "Participate Rules";
+PlanHarvestPage_cell_quantitative_amount_title_key = "quantitative_amount";
+PlanHarvestPage_cell_release_amount_title_key = "release_amount";
+PlanJoinRecordDetailsPage_queuing_order_rule_text_key = "*.When users participate in the list, it will consume Mcoin, and start to calculate revenue.\n*. The revenue of users will be calculated as 1% per day, and the highest revenue per single visit shall be 30%\n*. Please transfer in ETC on time, otherwise it will be regarded as dishonest users.\n*. You can click ‘harvest’  only if you participate in the order arrangement for more than 15 days, and transfer in ETC on time.\n*. As soon as you click ‘harvest’, the revenue stops gainning, and the amount will be transferred to the harvest list. And the participation is over.\n";
+PlanReservation_bottom_alert_quantified_title = "As of 2019-2-21, the unharvested order shall be returned to the quantified amount, which shall be released by the new single payment or the recommended new payment. Each quota is released according to 20% of the amount of the original order or the recommended first order, for example: 100ETC after I made the payment or 100ETC after the new recommended payment, 20ETC after the quantized amount is released. New harvest orders will be normally harvested within 0-10 days.";
+PlanReservation_bottom_alert_quantified_amount_rule = "Quantified Amount Rule";
+//PlanJoinRecordDetailsPage_queuing_order_rule_text_key = "The rules of the game: from the date of registration, 1% of the participation amount per day, the highest reward 30%";
+//MARK: - 参与 - 待转款
+PlanJoinRecordDetailsPage_waiting_transfer_navigation_title_key = "Transfer Details";
+PlanJoinRecordDetailsPage_waiting_transfer_bottom_btn_title_key = " Payment Confirm";
+PlanJoinRecordDetailsPage_waiting_transfer_rule_text_key = "You must comfirm the transfer within 72 hours to transfer the revenue to your wallet, or you may lose it.";
+PlanJoinRecordDetailsPage_waiting_transfer_countdown_left_title_key = "Countdown";
+
+//MARK: - 参与 - 已完成
+PlanJoinRecordDetailsPage_finished_navigation_title_key = "Participation Details";
+PlanJoinRecordDetailsPage_finished_bottom_btn_title_key = "Withdraw";
+PlanJoinRecordDetailsPage_finished_rule_text_key = "You can only withdraw after 15 days since line-up date. You will recieve 1% up to 30% reward after 15 days";
+//MARK: - 打包中
+PlanJoinRecordDetailsPage_wait_package_bottom_btn_title_key = "packaging";
+PlanJoinRecordDetailsPage_return_bottom_btn_title_key = "Return";
+
+//MARK: - 收获 - 排单期
+PlanHarvestRecordDetailsPage_queuing_harvest_record_key = "harvest list";
+PlanHarvestRecordDetailsPage_queuing_wait_confirm_key = "harvest wait";
+PlanHarvestRecordDetailsPage_queuing_harvest_confirm_key = "收获确定";
+PlanHarvestRecordDetailsPage_queuing_harvest_account_key = "harvest account";
+
+PlanHarvestRecordDetailsPage_queuing_order_navigation_title_key = "Pending";
+PlanHarvestRecordDetailsPage_queuing_order_bottom_btn_title_key = "Pending...";
+PlanHarvestRecordDetailsPage_queuing_order_rule_title_key = "Withdraw Rules";
+PlanHarvestRecordDetailsPage_queuing_order_rule_text_key = "*.When users initiate the harvest list, it consumes Mcoin and starts timing.\n*. After the system prompts to confirm the harvest, please operate within the required time, otherwise the amount will be returned to the harvest list\n*. For each payment, 0.01ETC will be deducted as transfer fee.\n*. When system transfers ETC to the user's personal wallet,  the harvest is completed.\n";
+//PlanHarvestRecordDetailsPage_queuing_order_rule_text_key = "the reward will stop gainning as soon as you withdraw. The revenue will transfer to your account at the end of line-up date.";
+//MARK: - 收获 - 待确定
+PlanHarvestRecordDetailsPage_wait_confirm_navigation_title_key = "Transfer Details";
+PlanHarvestRecordDetailsPage_wait_confirm_bottom_btn_title_key = " Payment Confirm";
+PlanHarvestRecordDetailsPage_wait_confirm_rule_text_key = "You must comfirm the transfer within 72 hours to transfer the revenue to your wallet, or you may lose it.";
+PlanHarvestRecordDetailsPage_wait_confirm_countdown_left_title_key = "Countdown";
+//MARK: - 收获 - 已完成
+PlanHarvestRecordDetailsPage_finish_navigation_title_key = "Complete Record";
+PlanHarvestRecordDetailsPage_finish_bottom_btn_title_key = "Completed";
+
+//MARK: - 转款确认
+WalletTransferConfirm_navigation_title_key = "Transfer Confirmation";
+WalletTransferConfirm_left_transfer_amount_text_key = "Transfer amount";
+WalletTransferConfirm_enter_payment_pwd_text_key = "Enter payment password";
+WalletTransferConfirm_reminder_text_key = "You are transfering your asset to the fund pool, please make sure there's enough ETC in your wallet.";
+WalletTransferConfirm_bottom_btn_title_key = "Transfer Confirm";
+WalletTransferConfirm_minesfee_text_key = "Miner fee";
+
+//MARK: - 收获确认
+WalletReceiptConfirm_navigation_title_key = "Receipt Confirmation";
+WalletReceiptConfirm_left_transfer_amount_text_key = "Withdraw amount";
+WalletReceiptConfirm_enter_payment_pwd_text_key = "Enter payment password";
+WalletReceiptConfirm_bottom_btn_title_key = "Submit";
+WalletReceiptConfirm_bottom_lbl_text_key = "The assets are transferred from the mavrodi capital pool to the personal wallet, which can be viewed after the package is confirmed";
+WalletReceiptConfirm_total_amout_left_title_key = "Total amount";
+WalletReceiptConfirm_trading_fee_left_title_key = "Trading fee";
+
+//MARK: - 资金池页面
+MavrodiCapitalPoolPage_navigation_title_key = "Capital Pool";
+MavrodiCapitalPoolPage_reminder_text_key = "Real time flow of funds";
+MavrodiCapitalPoolPage_left_btn_title_key = "Partic\nipate\nPool";
+MavrodiCapitalPoolPage_right_btn_title_key = "Reve\nnue\nPool";
+MavrodiCapitalPoolPage_bottom_btn_title_key = "JOIN NOW";
+
+//MARK: - 排单池页面
+MavrodiPlanRowPoolPage_navigation_title_key = "Participate Pool";
+MavrodiPlanRowPoolPage_game_reminder_text_key = "Mcoin consumed when scheduling";
+MavrodiPlanRowPoolPage_amount_reminder_text_key = "THE UPPER LIMITATION NOW：10000000ETC";
+MavrodiPlanRowPoolPage_bottom_btn_title_key = "JOIN\nNOW";
+
+//MARK: - 收获矿池
+HarvestpoolPage_navigation_title_key = "Revenue Pool";
+HarvestpoolPage_bottom_btn_title_key = "Withdraw Now";
+HarvestpoolPage_game_reminder_text_key = "Mcoin consumed when reaping the order";
+
+//MARK: - 提取收益页面
+ExtractionEanringsPage_navigation_title_key = "Extract Revenue";
+ExtractionEanringsPage_amount_textfield_placeholder_key = "Input extract amount";
+ExtractionEanringsPage_content_bottom_textlbl_text_key = "The proceeds go from the total wallet to the individual purse.You can check in your wallet when you're done packing.";
+ExtractionEanringsPage_bottom_btn_title_key = "SUBMIT";
+ExtractionEanringsPage_amount_empty_prompt_text_key = "Please enter the withdrawal amount";
+
+//MARK: - 修改密码
+WalletModifyPasswordPage_navigation_title_key = "Reset Password";
+WalletModifyPasswordPage_current_password_title_key = "current password";
+WalletModifyPasswordPage_new_password_title_key = "new password";
+WalletModifyPasswordPage_re_password_title_key = "re-enter";
+WalletModifyPasswordPage_bottom_lbl_text_key = "forget your password?\nimporting private key could allow you ";
+WalletModifyPasswordPage_bottom_right_btn_title_key = "reset your password";
+WalletModifyPasswordPage_tipsBL_lbl_text_key = "● Need a capital letter";
+WalletModifyPasswordPage_tipsLL_lbl_text_key = "● Need a lowercase letter";
+WalletModifyPasswordPage_tipsN_lbl_text_key = "● Need a number";
+WalletModifyPasswordPage_tips8_lbl_text_key = "● Need more than eight";
+WalletModifyPasswordPage_confirm_btn_title_key = "Submit";
+WalletModifyPasswordPage_current_pwd_empty_prompt_key = "Please enter your current password";
+WalletModifyPasswordPage_new_pwd_empty_prompt_key = "Please enter a new password";
+WalletModifyPasswordPage_re_pwd_empty_prompt_key = "Please enter a confirmation password";
+WalletModifyPasswordPage_pwd_differ_empty_prompt_key = "Inconsistent password input";
+WalletModifyPasswordPage_pwd_lessthan_empty_prompt_key = "Enter the password must be no less than 8 digits";
+
+//MARK: - 钱包设置
+WalletSettingsPage_navigation_title_key = "Wallet Setting";
+WalletSettingsPage_item_modify_pwd_title_key = "Reset Password";
+WalletSettingsPage_item_bucket_privatekey_title_key = "Backup Private Key";
+WalletSettingsPage_item_export_publickey_title_key = "Export Public Key";
+WalletSettingsPage_delete_btn_title_key = "Delete Wallet";
+WalletSettingsPage_bottom_infoLbl_text_key = "If you delete wallet, you can find it back with private key.";
+WalletSettingsPage_amount_uint_text_key = "$:";
+
+//MARK: - 输入钱包密码弹框
+WalletEnterPasswordAlert_wallet_pwd_top_lbl_text_key = "Wallet Password";
+WalletEnterPasswordAlert_wallet_pwd_textfield_placeholder_key = "Enter wallet password";
+WalletEnterPasswordAlert_wallet_pwd_enter_empty_prompt_text_key = "Please Enter wallet password";
+WalletEnterPasswordAlert_login_pwd_top_lbl_text_key = "Login Password";
+WalletEnterPasswordAlert_login_pwd_textfield_placeholder_key = "Enter login password";
+
+//MARK: - 创建钱包首页
+NewWalletHomePage_create_btn_title_key = "Create wallet";
+NewWalletHomePage_export_btn_title_key = "Import wallet";
+NewWalletHomePage_bottom_lbl_text_key = "Manage your private key autonomously \n Produced by Mcoin Group";
+NewWalletHomePage_multi_lbl_text_key = "Multi-chain Wallet";
+
+WalletHomePage_remindder_text_key = "Security Reminder";
+WalletHomePage_remindder_detail_text_key = "Please back up your mnemonic phrases in case you foeget the password, delete the App or lose your phone";
+WalletHomePage_later_btn_title_key = "Later";
+WalletHomePage_back_up_now_btn_title_key = "Back Up Now";
+
+//MARK: - 导入钱包页面
+ExportWalletPage_navigation_title_key = "Import Private Key";
+ExportWalletPage_setpwd_lbl_title_key = "Set Password";
+ExportWalletPage_repwd_lbl_title_key = "Confirm Password";
+ExportWalletPage_setpwd_textfield_placeholder_key = "At least 8 digits, combines letters and  numbers.";
+ExportWalletPage_repwd_textfield_placeholder_key = "Re-enter password";
+ExportWalletPage_agreebtn_left_title_key = "I have read and agree to ";
+ExportWalletPage_agreebtn_right_title_key = "the Service and Privacy Policy";
+ExportWalletPage_export_btn_title_key = "Import Private Key";
+ExportWalletPage_eth_privatekey_placeholder_key = "Paste or enter ETH private key";
+ExportWalletPage_etc_privatekey_placeholder_key = "Paste or enter ETC private key";
+ExportWalletPage_eth_privatekey_empty_prompt_key = "Please enter the ETH private key";
+ExportWalletPage_etc_privatekey_empty_prompt_key = "Please enter the ETC private key";
+
+//MARK: - 重置钱包密码页面
+ResetWalletPasswordPage_navigation_title_key = "Reset wallet password";
+ResetWalletPasswordPage_bottom_btn_title_key = "Start resetting";
+
+//MARK: - 创建钱包页面
+CreateWalletPage_navigation_title_key = "Create wallet";
+CreateWalletPage_top_reminder_title_key = "Important Notices";
+CreateWalletPage_top_reminder_content_key = "The password is used to protect private key and authorization of trading. Please strenthen your password and keep it well. There will be no way to find it back if you forget it.";
+CreateWalletPage_setpwd_lbl_title_key = "Set a wallet password";
+CreateWalletPage_repwd_lbl_title_key = "Confirm Password";
+CreateWalletPage_account_lbl_title_key = "Account Name";
+CreateWalletPage_setpwd_textfield_placeholder_key = "Set password";
+CreateWalletPage_repwd_textfield_placeholder_key = "Repeat password";
+CreateWalletPage_account_textfield_placeholder_key = "Enter a-z lowercase and 1-5 numeric combination characters";
+CreateWalletPage_agreebtn_left_title_key = "I have read and agree to ";
+CreateWalletPage_agreebtn_right_title_key = "the Service and Privacy Policy";
+CreateWalletPage_create_btn_title_key = "Create wallet";
+
+CreateWalletPage_alert1_title_key = "A lowercase letter";
+CreateWalletPage_alert2_title_key = "An uppercase letter";
+CreateWalletPage_alert3_title_key = "A number";
+CreateWalletPage_alert4_title_key = "8-32 characters";
+
+//MARK: - 备份私钥
+BucketPrivateKeyPage_navigation_title_key = "Backup Private Key";
+BucketPrivateKeyPage_top_reminder_title_key = "Safety Warming";
+BucketPrivateKeyPage_top_reminder_content_key = "The private key is equivalent to your bank card password.\nPlease keep it properly! (do not capture, storage, micro letter, such as transmission to the network hard disk!)";
+BucketPrivateKeyPage_eth_lbl_title_key = "ETH Private Key";
+BucketPrivateKeyPage_etc_lbl_title_key = "ETC Private Key";
+BucketPrivateKeyPage_what_privatekey_btn_title_key = "what is private key";
+BucketPrivateKeyPage_bottom_btn_title_key = "I have kept my key";
+BucketPrivateKeyPage_top_lbl_text_key = "Please backup your private key";
+
+//MARK: - 导出公钥
+ExportPublicKeyPage_navigation_title_key = "Export Public Key";
+ExportPublicKeyPage_copy_btn_title_key = "Copy";
+ExportPublicKeyPage_eth_lbl_title_key = "ETH Public key(owner)";
+ExportPublicKeyPage_etc_lbl_title_key = "ETC Public key(owner)";
+ExportPublicKeyPage_item_one_title_key = "What is owner’s  privilege (owner)";
+ExportPublicKeyPage_item_two_title_key = "What is owner’s  privilege（Active）";
+ExportPublicKeyPage_item_three_title_key = "What is weight threshold";
+ExportPublicKeyPage_item_one_content_key = "The Owner represents ownership of the account and can set permissions to manage Active and other roles.";
+ExportPublicKeyPage_item_two_content_key = "Active is used for daily use, such as transferring money, voting, etc.";
+ExportPublicKeyPage_item_three_content_key = "Weight threshold is the minimum weight requirement to use this permission";
+
+//MARK: - 什么是私钥
+WhatIsPrivateKeyPage_navigation_title_key = "What is Private Key";
+WhatIsPrivateKeyPage_what_privatekey_txt_filename_key = "what_privateKey_en.txt";
+WhatIsPrivateKeyPage_bold_text_key = "What is Private Key";
+
+//MARK: - 钱包协议
+WalletProtocolPage_navigation_title_key = "Service and Privacy Policy";
+WalletProtocolPage_what_privatekey_txt_filename_key = "wallet_protocol_en.docx";
+
+//MARK: - 钱包首页
+WalletHomePage_total_assets_title_key = "Total Assets";
+
+//MARK: - 钱包记录
+WalletTradingRecordPage_receipt_btn_title_key = "Receive";
+WalletTradingRecordPage_trasfer_btn_title_key = "Transfer";
+WalletTradingRecordPage_transfer_record_lbl_text_key = "Transaction History";
+WalletTradingRecordPage_transfer_out_title_key = "Transfer";
+WalletTradingRecordPage_income_title_key = "Receive";
+WalletTradingRecordPage_wait_package_title_key = "Transfer";
+
+//MARK: - 钱包收款
+WalletReceiptPage_navigation_title_key = "Receipt";
+WalletReceiptPage_copy_btn_title_key = "Copy transfer address";
+
+//MARK: - 钱包转账
+WalletTradingRecordPage_shareAddress_btn_title_key = "Share Address";
+WalletTransferPage_navigation_title_key = "Transfer";
+WalletTransferPage_transfer_btn_title_key = "Confirm";
+WalletTransferPage_address_left_text_key = "Receiving Address";
+WalletTransferPage_amount_left_text_key = "Transfer Amount";
+WalletTransferPage_address_placeholder_text_key = "Enter Mcoin Adress";
+WalletTransferPage_amount_placeholder_text_key = "Enter Amount";
+WalletTransferPage_miner_fee_left_text_key = "Miner fee";
+WalletTransferPage_bottom_info_lbl_text_key = "Make sure the receiving address is correct";
+WalletTransferPage_send_address_empty_prompt_key = "Please enter the sending address";
+WalletTransferPage_trs_amount_empty_prompt_key = "Please enter the amount";
+//MARK: - 投资转账
+InvestmentTransferPage_navigation_title_key = "InvestmentTransfer";
+//MARK: - 转账结果
+WalletTransferResultPage_navigation_title_key = "Transaction Details";
+WalletTransferResultPage_transfer_successful_text_key = "Success";
+WalletTransferResultPage_transfer_wait_text_key = "Pending";
+WalletTransferResultPage_transfer_fail_text_key = "Fail";
+WalletTransferResultPage_bottom_btn_title_key = "BACK TO HOME";
+WalletTransferResultPage_transfer_amout_title_key = "Transfer amount：";
+WalletTransferResultPage_transfer_time_title_key = "Transfer time：";
+WalletTransferResultPage_transfer_out_address_title_key = "From：";
+WalletTransferResultPage_receipt_address_title_key = "To：";
+
+WalletTransferResultPage_transfer_to_text_key = "To";
+WalletTransferResultPage_transfer_from_text_key = "From";
+WalletTransferResultPage_transfer_fee_text_key = "Fee";
+WalletTransferResultPage_transfer_height_text_key = "Height";
+WalletTransferResultPage_transfer_txHash_text_key = "TxHash";
+WalletTransferResultPage_transfer_time_text_key = "Time";
+WalletTransferResultPage_transfer_return_title_key = "Return";
+WalletTransferResultPage_transfer_see_more_detail_title_key = "See more details";
+WalletTransferResultPage_transfer_Transfer_text_key = "Transfer";
+WalletTransferResultPage_transfer_Receive_text_key = "Receive";
+
+//MARK: - 系统公告
+AnnouncementListPage_navigation_title_key = "Announcement";
+AnnouncementListPage_cell_title_key = "Alerted to the user";
+AnnouncementDetailPage_navigation_title_key = "Details Announcement";
+
+//MARK: - 矿工费View
+MinerFeeView_miner_left_title_key = "fee";
+MinerFeeView_left_slow_title_key = "Slow";
+MinerFeeView_left_fast_title_key = "Fast";
+
+//MARK: - 创建钱包 服务协议
+Wallet_service_agreement_text_key = "Service Agreement & Privacy Policy";
+Wallet_service_confirm_title_key = "Confirm";
+Wallet_service_agreemen_title_key = "I agree to the above Terme";
+
+WalletHomePage_title_key = "Backup private key \n Unlock collection address";
+WalletHomePage_title2_key = "Why back up your private key? If the private key is not backed up:？";
+WalletHomePage_confirm_title_key = "Back Up Now";
+WalletHomePage_detail_title_key = "1. When the wallet security password is lost,the wallet and assets will be lost forever \n2. If the wallet APP or mobile phone is lost,the wallet and assets will be lost forever";
+
+HarvestConfirmAlertViewPage_title_lbl_text_key = "Confirm harvest prompt";
+HarvestConfirmAlertViewPage_detail_lbl_text_key = "Click “withdraw”, reward will no longer continue to grow, assets will be transf--erred to the withdraw interface, waiting for withdraw platoon.";
+HarvestConfirmAlertViewPage_cancelBtn_title_key = "Cancel";
+HarvestConfirmAlertViewPage_confirmBtn_title_key = "Confirm";
+
+
+//MARK: - 下拉刷新
+MR_Refresh_header_idle = "Pull down to refresh";
+MR_Refresh_header_pulling = "Pull down to refresh";
+MR_Refresh_header_pullFulling = "Let go and refresh";
+MR_Refresh_header_refreshing = "Refreshing";
+MR_Refresh_header_finished = "Refresh completed";
+
+//MARK: - 上拉加载更多
+MR_Refresh_footer_idle = "Pull up and load more";
+MR_Refresh_footer_refreshing = "Loading...";
+MR_Refresh_footer_finished = "Loading completed";
+MR_Refresh_footer_noMoreData = "No more data";
+MR_Refresh_footer_loadingFailure = "Loading failed, click reload";
+
+//MARK: - 正在开发中提示
+MR_UserCenter_developing_prompt_text_key = "Coming soon";
+
+//MARK: - 扫一扫
+MRQRCodeScanPage_navigation_title_key = "Scan";
+MRQRCodeScanPage_camora_starting_prompt_key = "Starting...";
+
+//MARK: - 更新弹框
+MRUpdateVersioAlert_title_key = "New version available";
+MRUpdateVersioAlert_update_content_key = "Do you want to download  the update now?";
+MRUpdateVersioAlert_update_left_btn_title_key = "Later";
+MRUpdateVersioAlert_update_right_btn_title_key = "Update";
+
+//申请解冻账号
+MRPlan_Unfreeze_Account_title_key = "Applying for thawing requires consumption ";
+MRPlan_Unfreeze_title_key = "Accounts frozen";
+MRPlan_Thaw_account_title_key = "Thaw account";
+MRPlan_Thaw_mail_notification_freeze_result_title_key = "24-hour mail notification freeze after transfer";
+
+
+

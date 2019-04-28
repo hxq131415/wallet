@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="312" id="KGk-i7-Jjw" customClass="MyInvitationContentView" customModule="MAVRodi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="387"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="386.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_invitation_qr_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lk4-eW-jct">
+                        <rect key="frame" x="0.0" y="0.0" width="332" height="386.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fk1-N0-6iX">
+                        <rect key="frame" x="16" y="153" width="300" height="36"/>
+                        <string key="text">Scan to download Mcoin
+Join and enjoy M Plan</string>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" red="0.086274509803921567" green="0.63529411764705879" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpq-Gx-Wk4">
+                        <rect key="frame" x="117" y="320.5" width="98" height="36"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.77647058823529413" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="Sew-B0-FxE"/>
+                            <constraint firstAttribute="width" constant="98" id="csU-6o-659"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <state key="normal" title="Copy">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="copyAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="LPZ-to-8r2"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1i-K7-hYm">
+                        <rect key="frame" x="128" y="274.5" width="76.5" height="36"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                        <color key="textColor" red="0.086274509803921567" green="0.63529411764705879" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Invitation code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXt-jF-v2x">
+                        <rect key="frame" x="98" y="251.5" width="136" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.086274509803921567" green="0.63529411764705879" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RTP-qn-OTU">
+                        <rect key="frame" x="116" y="33" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="RTP-qn-OTU" secondAttribute="height" id="AsJ-07-P9F"/>
+                            <constraint firstAttribute="width" constant="100" id="y1J-ZM-k0c"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="fk1-N0-6iX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="1h7-QM-b9a"/>
+                    <constraint firstItem="RTP-qn-OTU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="33" id="2rE-At-2Pv"/>
+                    <constraint firstItem="fk1-N0-6iX" firstAttribute="top" secondItem="RTP-qn-OTU" secondAttribute="bottom" constant="20" id="3uC-7h-Wwp"/>
+                    <constraint firstAttribute="bottom" secondItem="tpq-Gx-Wk4" secondAttribute="bottom" constant="30" id="HoF-rP-7LG"/>
+                    <constraint firstItem="RTP-qn-OTU" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="P4j-6x-8Ow"/>
+                    <constraint firstItem="tpq-Gx-Wk4" firstAttribute="top" secondItem="F1i-K7-hYm" secondAttribute="bottom" constant="10" id="SGt-J7-dUF"/>
+                    <constraint firstAttribute="bottom" secondItem="Lk4-eW-jct" secondAttribute="bottom" id="Uvx-K9-Xvw"/>
+                    <constraint firstItem="yXt-jF-v2x" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="YQl-vf-ExB"/>
+                    <constraint firstAttribute="trailing" secondItem="Lk4-eW-jct" secondAttribute="trailing" id="aEG-JF-IHa"/>
+                    <constraint firstItem="F1i-K7-hYm" firstAttribute="top" secondItem="yXt-jF-v2x" secondAttribute="bottom" constant="5" id="hac-8W-ESV"/>
+                    <constraint firstItem="F1i-K7-hYm" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="iYc-Xd-Jrd"/>
+                    <constraint firstItem="Lk4-eW-jct" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lgt-5d-ro7"/>
+                    <constraint firstItem="Lk4-eW-jct" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ofH-SQ-x2n"/>
+                    <constraint firstItem="tpq-Gx-Wk4" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="rDC-Vu-ZDW"/>
+                    <constraint firstAttribute="trailing" secondItem="fk1-N0-6iX" secondAttribute="trailing" constant="16" id="sIs-Ng-6ad"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0078431372549019607" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="copyBtn" destination="tpq-Gx-Wk4" id="Ha1-ui-T8u"/>
+                <outlet property="invitationNumLabel" destination="F1i-K7-hYm" id="TxW-wk-gom"/>
+                <outlet property="invitationTitleLabel" destination="yXt-jF-v2x" id="ArD-6m-XLM"/>
+                <outlet property="qrCodeView" destination="RTP-qn-OTU" id="px0-B1-iyo"/>
+                <outlet property="titleLabel" destination="fk1-N0-6iX" id="UHP-td-wzH"/>
+            </connections>
+            <point key="canvasLocation" x="-570" y="-94"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_invitation_qr_bg.png" width="336" height="391"/>
+    </resources>
+</document>

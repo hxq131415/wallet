@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="162" id="KGk-i7-Jjw" customClass="WalletHomeToolCell" customModule="MAVRodi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="162"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="161.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGN-9X-aic">
+                        <rect key="frame" x="16" y="0.0" width="288" height="161.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Security Reminder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHM-o5-U4J">
+                                <rect key="frame" x="16" y="14" width="256" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.66666666669999997" green="0.0078431372550000003" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Please back up your mnemonic phrases in case you foeget the password, delete the App or lose your phone" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vbs-tr-Ilq">
+                                <rect key="frame" x="16" y="42" width="256" height="39.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.66666666669999997" green="0.0078431372550000003" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEp-cR-8dS">
+                                <rect key="frame" x="16" y="95.5" width="112" height="48"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="0Yf-ST-DPb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Later">
+                                    <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="laterAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="56v-lz-So6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spP-HX-S74">
+                                <rect key="frame" x="160" y="95.5" width="112" height="48"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.77647058823529413" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Back Up Now"/>
+                                <connections>
+                                    <action selector="backUpNowAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="b91-Uk-LAR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vbs-tr-Ilq" firstAttribute="leading" secondItem="dHM-o5-U4J" secondAttribute="leading" id="1Q3-cH-tsp"/>
+                            <constraint firstItem="spP-HX-S74" firstAttribute="leading" secondItem="TEp-cR-8dS" secondAttribute="trailing" constant="32" id="2Pr-Iu-VyL"/>
+                            <constraint firstItem="spP-HX-S74" firstAttribute="trailing" secondItem="Vbs-tr-Ilq" secondAttribute="trailing" id="3UB-iU-ucG"/>
+                            <constraint firstItem="spP-HX-S74" firstAttribute="width" secondItem="TEp-cR-8dS" secondAttribute="width" id="5WU-KL-ORO"/>
+                            <constraint firstAttribute="trailing" secondItem="dHM-o5-U4J" secondAttribute="trailing" constant="16" id="7T5-vc-2TV"/>
+                            <constraint firstItem="spP-HX-S74" firstAttribute="centerY" secondItem="TEp-cR-8dS" secondAttribute="centerY" id="Brb-9j-FTS"/>
+                            <constraint firstItem="TEp-cR-8dS" firstAttribute="leading" secondItem="Vbs-tr-Ilq" secondAttribute="leading" id="Rgq-CZ-eol"/>
+                            <constraint firstAttribute="bottom" secondItem="spP-HX-S74" secondAttribute="bottom" constant="18" id="agq-u2-bfe"/>
+                            <constraint firstItem="Vbs-tr-Ilq" firstAttribute="top" secondItem="dHM-o5-U4J" secondAttribute="bottom" constant="5" id="dc3-iS-yh9"/>
+                            <constraint firstItem="spP-HX-S74" firstAttribute="height" secondItem="TEp-cR-8dS" secondAttribute="height" id="ePN-9f-OqD"/>
+                            <constraint firstItem="Vbs-tr-Ilq" firstAttribute="trailing" secondItem="dHM-o5-U4J" secondAttribute="trailing" id="lKX-Mg-wWl"/>
+                            <constraint firstItem="dHM-o5-U4J" firstAttribute="top" secondItem="SGN-9X-aic" secondAttribute="top" constant="14" id="va3-gV-9wq"/>
+                            <constraint firstItem="dHM-o5-U4J" firstAttribute="leading" secondItem="SGN-9X-aic" secondAttribute="leading" constant="16" id="via-MO-x48"/>
+                            <constraint firstItem="TEp-cR-8dS" firstAttribute="top" secondItem="Vbs-tr-Ilq" secondAttribute="bottom" constant="14" id="wkJ-5s-c3h"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="SGN-9X-aic" secondAttribute="bottom" id="35N-Uj-x3H"/>
+                    <constraint firstItem="SGN-9X-aic" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="6qZ-Eq-zwq"/>
+                    <constraint firstItem="SGN-9X-aic" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8m8-0u-7n6"/>
+                    <constraint firstAttribute="trailing" secondItem="SGN-9X-aic" secondAttribute="trailing" constant="16" id="GTn-SL-fI4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backUpNowBtn" destination="spP-HX-S74" id="ZiR-mR-jt7"/>
+                <outlet property="bgView" destination="SGN-9X-aic" id="ESS-0w-u66"/>
+                <outlet property="detailLabel" destination="Vbs-tr-Ilq" id="qfB-Hq-1l3"/>
+                <outlet property="laterBtn" destination="TEp-cR-8dS" id="L8y-lu-f1J"/>
+                <outlet property="reminderLabel" destination="dHM-o5-U4J" id="ueh-Xa-wdM"/>
+            </connections>
+            <point key="canvasLocation" x="-477" y="-56"/>
+        </tableViewCell>
+    </objects>
+</document>

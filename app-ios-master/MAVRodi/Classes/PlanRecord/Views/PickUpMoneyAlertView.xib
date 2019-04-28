@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="210" id="KGk-i7-Jjw" customClass="PickUpMoneyAlertView" customModule="MAVRodi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="210"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="209.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提取兑换金" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi4-GW-0dr">
+                        <rect key="frame" x="117.5" y="18" width="85" height="20"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fsx-6S-ip9">
+                        <rect key="frame" x="95" y="142.5" width="130" height="48"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.77647058823529413" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="m8I-od-L47"/>
+                            <constraint firstAttribute="width" constant="130" id="qP5-gU-5X3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                        <state key="normal" title="提取">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="self.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="confirmAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ujr-0b-cXg"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrT-dg-Y3d">
+                        <rect key="frame" x="271" y="9" width="42" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="1BG-hl-qgG"/>
+                            <constraint firstAttribute="width" constant="42" id="eIX-o3-yWE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <state key="normal" title="X">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="cancleAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DlU-H5-ryt"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1x4-aQ-azX">
+                        <rect key="frame" x="248" y="83" width="50" height="20"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6EU-Hi-mqo">
+                        <rect key="frame" x="7" y="110" width="305" height="1"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="HZH-PU-8bp"/>
+                        </constraints>
+                    </view>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="3456666" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cvn-F7-lKa">
+                        <rect key="frame" x="23" y="79" width="211" height="27"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6EU-Hi-mqo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="0Z0-iD-cPE"/>
+                    <constraint firstItem="Cvn-F7-lKa" firstAttribute="top" secondItem="Xi4-GW-0dr" secondAttribute="bottom" constant="41" id="2W4-tL-AJc"/>
+                    <constraint firstItem="Xi4-GW-0dr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="2nL-RI-NZb"/>
+                    <constraint firstItem="Fsx-6S-ip9" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4JF-P1-CDB"/>
+                    <constraint firstItem="6EU-Hi-mqo" firstAttribute="top" secondItem="1x4-aQ-azX" secondAttribute="bottom" constant="7" id="7uR-6e-2QZ"/>
+                    <constraint firstItem="Cvn-F7-lKa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="DiW-Wd-Wfa"/>
+                    <constraint firstItem="LrT-dg-Y3d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="EKe-ot-pBP"/>
+                    <constraint firstAttribute="bottom" secondItem="Fsx-6S-ip9" secondAttribute="bottom" constant="19" id="Jpz-Kn-0kP"/>
+                    <constraint firstAttribute="trailing" secondItem="6EU-Hi-mqo" secondAttribute="trailing" constant="8" id="SXR-2l-WR3"/>
+                    <constraint firstItem="1x4-aQ-azX" firstAttribute="leading" secondItem="Cvn-F7-lKa" secondAttribute="trailing" constant="14" id="Y6Z-2E-2ig"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1x4-aQ-azX" secondAttribute="trailing" constant="6" id="g2K-wA-KIZ"/>
+                    <constraint firstItem="Xi4-GW-0dr" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="gYF-DY-1uH"/>
+                    <constraint firstItem="1x4-aQ-azX" firstAttribute="top" secondItem="LrT-dg-Y3d" secondAttribute="bottom" constant="35" id="qXn-3x-sUv"/>
+                    <constraint firstAttribute="trailing" secondItem="LrT-dg-Y3d" secondAttribute="trailing" constant="7" id="sJ6-tY-vn6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cancleBtn" destination="LrT-dg-Y3d" id="Mbp-cw-lIw"/>
+                <outlet property="titleLabel" destination="Xi4-GW-0dr" id="hqS-dd-0xQ"/>
+            </connections>
+            <point key="canvasLocation" x="-123.2" y="60.26986506746627"/>
+        </tableViewCell>
+    </objects>
+</document>

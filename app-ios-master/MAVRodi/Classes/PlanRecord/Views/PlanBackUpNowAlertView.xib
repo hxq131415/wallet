@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PlanBackUpNowAlertView" customModule="MAVRodi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="229.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi4-GW-0dr">
+                        <rect key="frame" x="16" y="31.5" width="288" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="naG-3e-29T"/>
+                        </constraints>
+                        <string key="text">Backup private key
+Unlock collection address</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sc-Pf-yEY">
+                        <rect key="frame" x="30" y="69.5" width="260" height="34"/>
+                        <string key="text">Why back up your private key? If the 
+private key is not backed up:？</string>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="0.65001605308219179" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. When the wallet security password is lost, the wallet and assets will be lost forever" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ee4-en-7WY">
+                        <rect key="frame" x="30" y="113.5" width="260" height="51"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="51" id="i7t-Qu-itS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.66666666669999997" green="0.0078431372550000003" blue="0.0078431372550000003" alpha="0.65001605309999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fsx-6S-ip9">
+                        <rect key="frame" x="95" y="169.5" width="130" height="48"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.77647058823529413" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="m8I-od-L47"/>
+                            <constraint firstAttribute="width" constant="130" id="qP5-gU-5X3"/>
+                        </constraints>
+                        <state key="normal" title="Back Up Now">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="confirmAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="oc5-Ou-jIT"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrT-dg-Y3d">
+                        <rect key="frame" x="271" y="0.0" width="42" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="1BG-hl-qgG"/>
+                            <constraint firstAttribute="width" constant="42" id="eIX-o3-yWE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <state key="normal" title="X">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="cancleAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DlU-H5-ryt"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8Sc-Pf-yEY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="0ZZ-9z-BOG"/>
+                    <constraint firstItem="Xi4-GW-0dr" firstAttribute="centerX" secondItem="8Sc-Pf-yEY" secondAttribute="centerX" id="1Qz-zj-1Ah"/>
+                    <constraint firstItem="Xi4-GW-0dr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20.5" id="2nL-RI-NZb"/>
+                    <constraint firstItem="Fsx-6S-ip9" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4JF-P1-CDB"/>
+                    <constraint firstItem="LrT-dg-Y3d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="EKe-ot-pBP"/>
+                    <constraint firstAttribute="bottom" secondItem="Fsx-6S-ip9" secondAttribute="bottom" constant="12" id="Jpz-Kn-0kP"/>
+                    <constraint firstItem="Ee4-en-7WY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="113.5" id="MXp-A1-a7j"/>
+                    <constraint firstItem="8Sc-Pf-yEY" firstAttribute="top" secondItem="Xi4-GW-0dr" secondAttribute="bottom" constant="-1" id="Nq9-GC-N15"/>
+                    <constraint firstItem="Ee4-en-7WY" firstAttribute="leading" secondItem="8Sc-Pf-yEY" secondAttribute="leading" id="PbP-KL-anm"/>
+                    <constraint firstItem="Xi4-GW-0dr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ah1-AV-PAl"/>
+                    <constraint firstAttribute="trailing" secondItem="8Sc-Pf-yEY" secondAttribute="trailing" constant="30" id="fbH-yu-Mtu"/>
+                    <constraint firstItem="Ee4-en-7WY" firstAttribute="trailing" secondItem="8Sc-Pf-yEY" secondAttribute="trailing" id="jrV-A6-meN"/>
+                    <constraint firstItem="Fsx-6S-ip9" firstAttribute="top" secondItem="Ee4-en-7WY" secondAttribute="bottom" constant="5" id="nR3-mK-bol"/>
+                    <constraint firstItem="Ee4-en-7WY" firstAttribute="top" secondItem="8Sc-Pf-yEY" secondAttribute="bottom" constant="10" id="s3p-h6-Qxx"/>
+                    <constraint firstAttribute="trailing" secondItem="LrT-dg-Y3d" secondAttribute="trailing" constant="7" id="sJ6-tY-vn6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cancleBtn" destination="LrT-dg-Y3d" id="Mbp-cw-lIw"/>
+                <outlet property="confirmBtn" destination="Fsx-6S-ip9" id="tdg-vd-bkO"/>
+                <outlet property="detailLabel" destination="Ee4-en-7WY" id="Pub-cn-ZOc"/>
+                <outlet property="titleLabel" destination="Xi4-GW-0dr" id="hqS-dd-0xQ"/>
+                <outlet property="titleLabel2" destination="8Sc-Pf-yEY" id="E5j-5g-h0o"/>
+            </connections>
+            <point key="canvasLocation" x="-123.2" y="69.265367316341838"/>
+        </tableViewCell>
+    </objects>
+</document>

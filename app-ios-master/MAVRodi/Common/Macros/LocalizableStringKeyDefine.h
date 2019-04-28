@@ -1,0 +1,643 @@
+//
+//MARK: -  LocalizableStringKeyDefine.h
+//MARK: -  MAVRodi
+//
+//MARK: -  Created by rttx on 2018/9/3.
+//MARK: -  Copyright © 2018年 rttx. All rights reserved.
+//
+
+#ifndef LocalizableStringKeyDefine_h
+#define LocalizableStringKeyDefine_h
+
+//MARK: - Common keys
+#define MR_Confirm_BtnTitle_Key @"MR_Confirm_BtnTitle_Key"
+#define MR_Confirm_Return_Login_BtnTitle_Key @"MR_Confirm_Return_Login_BtnTitle_Key"
+#define MR_Request_Sending_Key @"MR_Request_Sending_Key"
+#define MR_Request_Send_Successful_Key @"MR_Request_Send_Successful_Key"
+#define MR_Request_Send_Faild_Key @"MR_Request_Send_Faild_Key"
+#define MR_Request_loading_faild_message @"MR_Request_loading_faild_message"
+//MARK: - 金钱符号
+#define MR_money_uint_text_key @"MR_money_uint_text_key"
+//MARK: - 已复制
+#define MR_copyed_prompt_text_key @"MR_copyed_prompt_text_key"
+
+#define MR_Alert_title_key @"MR_Alert_title_key"
+#define MR_Request_title_key @"MR_Request_title_key"
+#define MR_Announcement_title_key @"MR_Announcement_title_key"
+
+
+//MARK: - 登录
+#define Login_NavigationTitle_Key @"Login_NavigationTitle_Key"
+#define Login_loginSuccessful_Msg_Key @"Login_loginSuccessful_Msg_Key"
+#define Login_loginFailed_Msg_Key @"Login_loginFailed_Msg_Key"
+#define Login_loging_Prompt_Key @"Login_loging_Prompt_Key"
+#define Login_loginEnterUserName_orEmail_Prompt_Key @"Login_loginEnterUserName_orEmail_Prompt_Key"
+#define Login_loginEnterPassword_Prompt_Key @"Login_loginEnterPassword_Prompt_Key"
+#define Login_loginEnterVerifyCode_Prompt_Key @"Login_loginEnterVerifyCode_Prompt_Key"
+
+#define Login_userName_placeholder_Key @"Login_userName_placeholder_Key"
+#define Login_password_placeholder_Key @"Login_password_placeholder_Key"
+#define Login_forgetPassword_button_title_Key @"Login_forgetPassword_button_title_Key"
+#define Login_login_button_title_Key @"Login_login_button_title_Key"
+#define Login_register_button_title_Key @"Login_register_button_title_Key"
+#define Login_top_user_prompt_text_key @"Login_top_user_prompt_text_key"
+#define Login_loginEnterVerify_email_address @"Login_loginEnterVerify_email_address"
+#define Login_loginEnterTips_ImportantAttention_title_Key @"Login_loginEnterTips_ImportantAttention_title_Key"
+#define Login_loginEnterTips_ImportantAttention_content_Key @"Login_loginEnterTips_ImportantAttention_content_Key"
+#define Login_loginEnterTips_ChangePayPasswrod_title_Key @"Login_loginEnterTips_ChangePayPasswrod_title_Key"
+#define Login_loginEnterTips_ChangePayPasswrod_content_Key @"Login_loginEnterTips_ChangePayPasswrod_content_Key"
+#define Login_loginEnterTips_selectBtn_title_Key @"Login_loginEnterTips_selectBtn_title_Key"
+
+#define ForgetPassword_NavigationTitle_Key @"ForgetPassword_NavigationTitle_Key"
+#define ForgetPassword_email_placeholder_Key @"ForgetPassword_email_placeholder_Key"
+#define ForgetPassword_getVerifyCode_placeholder_Key @"ForgetPassword_getVerifyCode_placeholder_Key"
+#define ForgetPassword_newPassword_placeholder_Key @"ForgetPassword_newPassword_placeholder_Key"
+#define ForgetPassword_getVerifyCode_btnTitle_Key @"ForgetPassword_getVerifyCode_btnTitle_Key"
+#define ForgetPassword_email_empty_prompt_Key @"ForgetPassword_email_empty_prompt_Key"
+#define ForgetPassword_verifycode_empty_prompt_Key @"ForgetPassword_verifycode_empty_prompt_Key"
+#define ForgetPassword_newPassword_empty_prompt_Key @"ForgetPassword_newPassword_empty_prompt_Key"
+
+#define Register_Navigation_title_key @"Register_Navigation_title_key"
+#define Register_username_placeholder_key @"Register_username_placeholder_key"
+#define Register_email_placeholder_key @"Register_email_placeholder_key"
+#define Register_verifycode_placeholder_key @"Register_verifycode_placeholder_key"
+#define Register_loginpassword_placeholder_key @"Register_loginpassword_placeholder_key"
+#define Register_paymentpassword_placeholder_key @"Register_paymentpassword_placeholder_key"
+#define Register_invitationcode_placeholder_key @"Register_invitationcode_placeholder_key"
+#define Register_user_agree_left_title_key @"Register_user_agree_left_title_key"
+#define Register_user_agree_right_title_key @"Register_user_agree_right_title_key"
+#define Register_getVerifycode_button_title_key @"Register_getVerifycode_button_title_key"
+
+#define Register_username_empty_prompt_Key @"Register_username_empty_prompt_Key"
+#define Register_email_empty_prompt_Key @"Register_email_empty_prompt_Key"
+#define Register_verifycode_empty_prompt_Key @"Register_verifycode_empty_prompt_Key"
+#define Register_loginPassword_empty_prompt_Key @"Register_loginPassword_empty_prompt_Key"
+#define Register_paymentPassword_empty_prompt_Key @"Register_paymentPassword_empty_prompt_Key"
+#define Register_invitationcode_empty_prompt_Key @"Register_invitationcode_empty_prompt_Key"
+#define Register_useragree_check_prompt_Key @"Register_useragree_check_prompt_Key"
+
+//MARK: - 个人中心
+#define UserCenter_my_information_title_key @"UserCenter_my_information_title_key"
+#define UserCenter_my_sharing_title_key  @"UserCenter_my_sharing_title_key"
+#define UserCenter_high_frequency_title_key  @"UserCenter_high_frequency_title_key"
+#define UserCenter_lucky_wheel_title_key  @"UserCenter_lucky_wheel_title_key"
+#define UserCenter_select_language_title_key  @"UserCenter_select_language_title_key"
+#define UserCenter_announcement_title_key @"UserCenter_announcement_title_key"
+#define UserCenter_version_title_key @"UserCenter_version_title_key"
+
+#define MyInvitationPage_titleLbl_text_key @"MyInvitationPage_titleLbl_text_key"
+
+
+#define UserInformation_navigation_title_key  @"UserInformation_navigation_title_key"
+#define UserInformation_current_account_title_key  @"UserInformation_current_account_title_key"
+#define UserInformation_payment_password_title_key  @"UserInformation_payment_password_title_key"
+#define UserInformation_nickname_modify_title_key  @"UserInformation_nickname_modify_title_key"
+#define UserInformation_avatar_modify_title_key  @"UserInformation_avatar_modify_title_key"
+#define UserInformation_exit_button_title_key  @"UserInformation_exit_button_title_key"
+#define UserInformation_current_version_text_key  @"UserInformation_current_version_text_key"
+
+
+#define MR_TabBar_wallet_title_key @"MR_TabBar_wallet_title_key"
+#define MR_TabBar_usercenter_title_key @"MR_TabBar_usercenter_title_key"
+
+#define MR_Alert_cancel_btn_title_key @"MR_Alert_cancel_btn_title_key"
+#define MR_Alert_determine_btn_title_key @"MR_Alert_determine_btn_title_key"
+
+//MARK: - 设置支付密码弹框
+#define SetPaymentPassword_top_title_key @"SetPaymentPassword_top_title_key"
+#define SetPaymentPassword_password_placeholder_text_key @"SetPaymentPassword_password_placeholder_text_key"
+#define SetPaymentPassword_get_verifycode_btn_title_key @"SetPaymentPassword_get_verifycode_btn_title_key"
+
+//MARK: - 修改用户名信息
+#define ModifyUserName_username_top_title_label_key  @"ModifyUserName_username_top_title_label_key"
+#define ModifyUserName_username_textfield_placeholder_key  @"ModifyUserName_username_textfield_placeholder_key"
+#define ModifyUserName_quote_textfield_placeholder_key  @"ModifyUserName_quote_textfield_placeholder_key"
+#define ModifyUserName_enterName_lbl_text_key  @"ModifyUserName_enterName_lbl_text_key"
+#define ModifyUserName_nickname_empty_prompt_Key  @"ModifyUserName_nickname_empty_prompt_Key"
+#define ModifyUserName_quetes_empty_prompt_Key  @"ModifyUserName_quetes_empty_prompt_Key"
+
+
+//MARK: - 修改头像
+#define ModifyHeadImage_uploading_text_key @"ModifyHeadImage_uploading_text_key"
+#define ModifyHeadImage_upload_success_text_key @"ModifyHeadImage_upload_success_text_key"
+#define ModifyHeadImage_upload_faild_text_key @"ModifyHeadImage_upload_faild_text_key"
+
+//MARK: - (邀请奖励，管理奖励)奖励页面
+#define MyReward_header_left_btn_title_key  @"MyReward_header_left_btn_title_key"
+#define MyReward_header_right_btn_title_key  @"MyReward_header_right_btn_title_key"
+#define MyReward_sharing_navigation_title_key  @"MyReward_sharing_navigation_title_key"
+#define MyReward_sharing_header_top_lbl_title_key  @"MyReward_sharing_header_top_lbl_title_key"
+#define MyReward_leadership_navigation_title_key  @"MyReward_leadership_navigation_title_key"
+#define MyReward_leadership_header_top_lbl_title_key  @"MyReward_leadership_header_top_lbl_title_key"
+#define MyReward_sharing_header_gray_reminder_text_key  @"MyReward_sharing_header_gray_reminder_text_key"
+#define MyReward_leadership_header_gray_reminder_text_key  @"MyReward_leadership_header_gray_reminder_text_key"
+
+#define ManagetReward_leadership_navigation_title_key  @"ManagetReward_leadership_navigation_title_key"
+
+#define ManagetReward_content_view_principal_title_key  @"ManagetReward_content_view_principal_title_key"
+#define ManagetReward_content_view_leadership_title_key  @"ManagetReward_content_view_leadership_title_key"
+#define ManagetReward_content_view_sharing_title_key  @"ManagetReward_content_view_sharing_title_key"
+
+#define ManagetReward_content_view_yesterday_title_key  @"ManagetReward_content_view_yesterday_title_key"
+#define ManagetReward_content_view_weekly_title_key  @"ManagetReward_content_view_weekly_title_key"
+#define ManagetReward_content_view_monthly_title_key  @"ManagetReward_content_view_monthly_title_key"
+
+#define ManagetReward_content_view_myLevel_title_key  @"ManagetReward_content_view_myLevel_title_key"
+#define ManagetReward_content_view_myDirectly_title_key  @"ManagetReward_content_view_myDirectly_title_key"
+#define ManagetReward_content_view_thePrincipal_title_key  @"ManagetReward_content_view_thePrincipal_title_key"
+#define ManagetReward_content_view_myTeam_title_key  @"ManagetReward_content_view_myTeam_title_key"
+#define ManagetReward_content_view_thePrincipalMyTeam_title_key  @"ManagetReward_content_view_thePrincipalMyTeam_title_key"
+
+#define ManagetReward_content_view_directly_invited_amount_title_key  @"ManagetReward_content_view_directly_invited_amount_title_key"
+#define ManagetReward_content_view_principal_invited_title_key  @"ManagetReward_content_view_principal_invited_title_key"
+
+#define ManagerReward_alertView_sharing_title_key  @"ManagerReward_alertView_sharing_title_key"
+#define ManagerReward_alertView_sharing_detail_key  @"ManagerReward_alertView_sharing_detail_key"
+#define ManagerReward_alertView_leadership_title_key  @"ManagerReward_alertView_leadership_title_key"
+#define ManagerReward_alertView_leadership_detail_key  @"ManagerReward_alertView_leadership_detail_key"
+
+//MARK: - 我的邀请
+#define MyInvitation_myinvitation_lbl_text_key  @"MyInvitation_myinvitation_lbl_text_key"
+#define MyInvitation_scancode_download_reminder_text_key  @"MyInvitation_scancode_download_reminder_text_key"
+#define MyInvitation_bottom_lbl_text_key  @"MyInvitation_bottom_lbl_text_key"
+
+//MARK: - 版本更新
+#define UpdatePage_navigationItem_title_key  @"UpdatePage_navigationItem_title_key"
+#define UpdatePage_update_btn_title_key  @"UpdatePage_update_btn_title_key"
+#define UpdatePage_update_lbl_text_key  @"UpdatePage_update_lbl_text_key"
+
+//MARK: - 用户协议
+#define UserAgreement_Navigation_title_key @"UserAgreement_Navigation_title_key"
+
+//MARK: - 资金池首页
+#define PlanRecordHome_enter_fund_pool_text_key @"PlanRecordHome_enter_fund_pool_text_key"
+#define PlanRecordHome_join_btn_title_key @"PlanRecordHome_join_btn_title_key"
+#define PlanRecordHome_harvest_btn_title_key @"PlanRecordHome_harvest_btn_title_key"
+#define PlanRecordHome_join_record_segment_title_key @"PlanRecordHome_join_record_segment_title_key"
+#define PlanRecordHome_harvest_record_segment_title_key @"PlanRecordHome_harvest_record_segment_title_key"
+#define PlanRecordHome_join_status_btn_all_record_title_key @"PlanRecordHome_join_status_btn_all_record_title_key"
+#define PlanRecordHome_join_status_btn_queuing_record_title_key @"PlanRecordHome_join_status_btn_queuing_record_title_key"
+
+#define PlanRecordHome_investment_title_key @"PlanRecordHome_investment_title_key"
+#define PlanRecordHome_investment_title2_key @"PlanRecordHome_investment_title2_key"
+#define PlanRecordHome_investment_title22_key @"PlanRecordHome_investment_title22_key"
+#define PlanRecordHome_investment_title3_key @"PlanRecordHome_investment_title3_key"
+
+#define PlanRecordHome_capitalin_text_key @"PlanRecordHome_capitalin_text_key"
+#define PlanRecordHome_capitalout_text_key @"PlanRecordHome_capitalout_text_key"
+
+#define PlanRecordHome_join_status_btn_wait_transfer_record_title_key @"PlanRecordHome_join_status_btn_wait_transfer_record_title_key"
+#define PlanRecordHome_join_status_btn_finish_record_title_key @"PlanRecordHome_join_status_btn_finish_record_title_key"
+
+#define PlanRecordHome_harvest_status_btn_all_record_title_key  @"PlanRecordHome_harvest_status_btn_all_record_title_key"
+#define PlanRecordHome_harvest_status_btn_queuing_record_title_key @"PlanRecordHome_harvest_status_btn_queuing_record_title_key"
+#define PlanRecordHome_harvest_status_btn_wait_confirm_record_title_key @"PlanRecordHome_harvest_status_btn_wait_confirm_record_title_key"
+#define PlanRecordHome_harvest_status_btn_finish_record_title_key @"PlanRecordHome_harvest_status_btn_finish_record_title_key"
+
+#define PlanRecordHome_join_cell_left_text_key @"PlanRecordHome_join_cell_left_text_key"
+#define PlanRecordHome_join_cell_middle_text_key @"PlanRecordHome_join_cell_middle_text_key"
+#define PlanRecordHome_join_cell_right_text_key @"PlanRecordHome_join_cell_right_text_key"
+
+#define PlanRecordHome_harvest_cell_left_text_key @"PlanRecordHome_harvest_cell_left_text_key"
+#define PlanRecordHome_harvest_cell_middle_text_key @"PlanRecordHome_harvest_cell_middle_text_key"
+#define PlanRecordHome_harvest_cell_right_text_key  @"PlanRecordHome_harvest_cell_right_text_key"
+
+#define PlanRecordHome_join_record_status_queuing_text_key  @"PlanRecordHome_join_record_status_queuing_text_key"
+#define PlanRecordHome_join_record_status_wait_transfer_text_key  @"PlanRecordHome_join_record_status_wait_transfer_text_key"
+#define PlanRecordHome_join_record_status_harvest_text_key @"PlanRecordHome_join_record_status_harvest_text_key"
+#define PlanRecordHome_join_record_status_finish_text_key  @"PlanRecordHome_join_record_status_finish_text_key"
+#define PlanRecordHome_join_record_status_wait_text_key  @"PlanRecordHome_join_record_status_wait_text_key"
+#define PlanRecordHome_join_record_status_failed_text_key  @"PlanRecordHome_join_record_status_failed_text_key"
+
+#define PlanRecordHome_harvest_record_status_queuing_text_key  @"PlanRecordHome_harvest_record_status_queuing_text_key"
+#define PlanRecordHome_harvest_record_status_wait_confirm_text_key  @"PlanRecordHome_harvest_record_status_wait_confirm_text_key"
+#define PlanRecordHome_harvest_record_status_finish_text_key  @"PlanRecordHome_harvest_record_status_finish_text_key"
+#define PlanJoinPage_enter_wallet_password_placeholder  @"PlanJoinPage_enter_wallet_password_placeholder"
+#define PlanRecordHome_harvest_record_status_wait_text_key  @"PlanRecordHome_harvest_record_status_wait_text_key"
+
+#define PlanRecordPage_join_title_key  @"PlanRecordPage_join_title_key"
+#define PlanRecordPage_reward_title_key  @"PlanRecordPage_reward_title_key"
+#define PlanRecordPage_harvest_title_key  @"PlanRecordPage_harvest_title_key"
+
+//MARK: - 奖励页面
+#define RecordPage_navigation_title_key  @"RecordPage_navigation_title_key"
+#define RecordPage_invitation_lbl_text_key  @"RecordPage_invitation_lbl_text_key"
+#define RecordPage_leadership_lbl_text_key  @"RecordPage_leadership_lbl_text_key"
+#define RecordPage_bottom_lbl_text_key  @"RecordPage_bottom_lbl_text_key"
+
+
+//MARK: - 参与页面
+#define PlanJoinPage_navigation_title_key  @"PlanJoinPage_navigation_title_key"
+#define PlanJoinPage_left_amount_text_key  @"PlanJoinPage_left_amount_text_key"
+#define PlanJoinPage_left_consume_text_key  @"PlanJoinPage_left_consume_text_key"
+#define PlanJoinPage_left_balance_text_key  @"PlanJoinPage_left_balance_text_key"
+#define PlanReservation_navigation_title_key  @"PlanReservation_navigation_title_key"
+#define PlanJoinPage_input_payment_pwd_text_key  @"PlanJoinPage_input_payment_pwd_text_key"
+#define PlanJoinPage_bottom_btn_title_key  @"PlanJoinPage_bottom_btn_title_key"
+#define PlanJoinPage_bottom_btn_unfreeze_title_key  @"PlanJoinPage_bottom_btn_unfreeze_title_key"
+#define PlanJoinPage_bottom_investment_text_key  @"PlanJoinPage_bottom_investment_text_key"
+#define PlanJoinPage_left_amount_textfield_placehorder_text_key  @"PlanJoinPage_left_amount_textfield_placehorder_text_key"
+
+#define PlanOrderPage_amount_textfield_placehorder_text_key  @"PlanOrderPage_amount_textfield_placehorder_text_key"
+#define PlanOrderPage_amount_Title_text_key  @"PlanOrderPage_amount_Title_text_key"
+#define PlanOrderPage_amount_queueNo_text_key  @"PlanOrderPage_amount_queueNo_text_key"
+#define PlanOrderPage_amount_waiting_time_text_key  @"PlanOrderPage_amount_waiting_time_text_key"
+#define PlanOrderPage_amount_bottom_lbl_text_key  @"PlanOrderPage_amount_bottom_lbl_text_key"
+#define PlanOrderPage_amount_takeNo_btn_title_key  @"PlanOrderPage_amount_takeNo_btn_title_key"
+
+#define PlanHarvestPage_cell_game_revenue_title_key  @"PlanHarvestPage_cell_game_revenue_title_key"
+#define PlanHarvestPage_cell_sharing_rewards_title_key  @"PlanHarvestPage_cell_sharing_rewards_title_key"
+#define PlanHarvestPage_cell_team_rewards_title_key @"PlanHarvestPage_cell_team_rewards_title_key"
+
+#define PlanJoinPage_input_amount_empty_prompt_key  @"PlanJoinPage_input_amount_empty_prompt_key"
+#define PlanJoinPage_input_paypwd_empty_prompt_key  @"PlanJoinPage_input_paypwd_empty_prompt_key"
+
+#define PlanJoinPage_contentView_bottom_reminder_text_key  @"PlanJoinPage_contentView_bottom_reminder_text_key"
+#define PlanJoinPage_contentView_bottom_text_key  @"PlanJoinPage_contentView_bottom_text_key"
+
+#define PlanHarvestDetailsPage_navigation_title_key  @"PlanHarvestDetailsPage_navigation_title_key"
+
+//MARK: - 收获页面
+#define PlanHarvestPage_navigation_title_key  @"PlanHarvestPage_navigation_title_key"
+#define PlanHarvestPage_reminder_text_key  @"PlanHarvestPage_reminder_text_key"
+#define PlanHarvestPage_input_payment_pwd_text_key  @"PlanHarvestPage_input_payment_pwd_text_key"
+#define PlanHarvestPage_input_paypwd_empty_prompt_key  @"PlanHarvestPage_input_paypwd_empty_prompt_key"
+#define PlanHarvestPage_bottom_btn_title_key  @"PlanHarvestPage_bottom_btn_title_key"
+#define PlanHarvestPage_bottom_lbl_text_key  @"PlanHarvestPage_bottom_lbl_text_key"
+#define PlanHarvestPage_footer_view_text_key  @"PlanHarvestPage_footer_view_text_key"
+
+#define WalletReceiptConfirmPage_left_amount_text_key  @"WalletReceiptConfirmPage_left_amount_text_key"
+#define WalletReceiptConfirmPage_amount_textfield_placehorder_text_key  @"WalletReceiptConfirmPage_amount_textfield_placehorder_text_key"
+#define WalletReceiptConfirmPage_left_fee_text_key  @"WalletReceiptConfirmPage_left_fee_text_key"
+#define WalletReceiptConfirmPage_left_fee_textfield_placehorder_text_key  @"WalletReceiptConfirmPage_left_fee_textfield_placehorder_text_key"
+#define WalletReceiptConfirmPage_bottom_btn_title_key  @"WalletReceiptConfirmPage_bottom_btn_title_key"
+
+//MARK: - 收获排单页面
+#define PlanConfirmHarvestPage_bottom_text_key  @"PlanConfirmHarvestPage_bottom_text_key"
+
+//MARK: - 收获（进场）
+#define PlanConfirmHarvest_navigation_title_key  @"PlanConfirmHarvest_navigation_title_key"
+#define PlanConfirmHarvest_bottom_btn_title_key  @"PlanConfirmHarvest_bottom_btn_title_key"
+#define PlanConfirmHarvest_input_max_amout_title_key  @"PlanConfirmHarvest_input_max_amout_title_key"
+#define PlanConfirmHarvest_amount_left_lblinput_max_amou_text_key  @"PlanConfirmHarvest_amount_left_lblinput_max_amou_text_key"
+
+//MARK: - 排单详情页
+//MARK: - Common
+#define PlanJoinRecordDetailsPage_Common_bottom_investment_text_key  @"PlanJoinRecordDetailsPage_Common_bottom_investment_text_key"
+#define PlanJoinRecordDetailsPage_Common_join_amount_title_key  @"PlanJoinRecordDetailsPage_Common_join_amount_title_key"
+#define PlanJoinRecordDetailsPage_Common_game_reward_title_key  @"PlanJoinRecordDetailsPage_Common_game_reward_title_key"
+#define PlanJoinRecordDetailsPage_Common_order_date_title_key  @"PlanJoinRecordDetailsPage_Common_order_date_title_key"
+#define PlanJoinRecordDetailsPage_Common_order_time_title_key  @"PlanJoinRecordDetailsPage_Common_order_time_title_key"
+#define PlanJoinRecordDetailsPage_Common_harvest_amount_title_key  @"PlanJoinRecordDetailsPage_Common_harvest_amount_title_key"
+#define PlanJoinRecordDetailsPage_Common_harvest_date_title_key  @"PlanJoinRecordDetailsPage_Common_harvest_date_title_key"
+
+#define PlanJoinRecordDetailsPage_Common_day_text_key  @"PlanJoinRecordDetailsPage_Common_day_text_key"
+#define PlanJoinRecordDetailsPage_Common_hour_text_key  @"PlanJoinRecordDetailsPage_Common_hour_text_key"
+#define PlanJoinRecordDetailsPage_Common_minute_text_key  @"PlanJoinRecordDetailsPage_Common_minute_text_key"
+#define PlanJoinRecordDetailsPage_Common_seccond_text_key  @"PlanJoinRecordDetailsPage_Common_seccond_text_key"
+
+#define PlanJoinRecordDetailsPage_amount_title_key  @"PlanJoinRecordDetailsPage_amount_title_key"
+#define PlanJoinRecordDetailsPage_reward_title_key  @"PlanJoinRecordDetailsPage_reward_title_key"
+#define PlanJoinRecordDetailsPage_date_title_key  @"PlanJoinRecordDetailsPage_date_title_key"
+#define PlanJoinRecordDetailsPage_time_title_key  @"PlanJoinRecordDetailsPage_time_title_key"
+#define PlanJoinRecordDetailsPage_step_title_key  @"PlanJoinRecordDetailsPage_step_title_key"
+
+//MARK: - 参与 - 排单期
+#define PlanJoinRecordDetailsPage_queuing_transfer_confirmTips_key @"PlanJoinRecordDetailsPage_queuing_transfer_confirmTips_key"
+
+#define PlanJoinRecordDetailsPage_queuing_order_navigation_title_key  @"PlanJoinRecordDetailsPage_queuing_order_navigation_title_key"
+#define PlanJoinRecordDetailsPage_queuing_join_record_key  @"PlanJoinRecordDetailsPage_queuing_join_record_key"
+#define PlanJoinRecordDetailsPage_queuing_wait_transfer_key  @"PlanJoinRecordDetailsPage_queuing_wait_transfer_key"
+#define PlanJoinRecordDetailsPage_queuing_join_transfer_key  @"PlanJoinRecordDetailsPage_queuing_join_transfer_key"
+#define PlanJoinRecordDetailsPage_queuing_transfer_confirm_key  @"PlanJoinRecordDetailsPage_queuing_transfer_confirm_key"
+#define PlanJoinRecordDetailsPage_queuing_harvest_confirm_key  @"PlanJoinRecordDetailsPage_queuing_harvest_confirm_key"
+
+#define PlanJoinRecordDetailsPage_queuing_order_bottom_btn_title_key  @"PlanJoinRecordDetailsPage_queuing_order_bottom_btn_title_key"
+#define PlanReservation_bottom_alert_Iknow_key @"PlanReservation_bottom_alert_Iknow_key"
+#define PlanJoinRecordDetailsPage_queuing_order_rule_title_key @"PlanJoinRecordDetailsPage_queuing_order_rule_title_key"
+#define PlanJoinRecordDetailsPage_queuing_order_rule_text_key  @"PlanJoinRecordDetailsPage_queuing_order_rule_text_key"
+#define PlanReservation_bottom_alert_quantified_title  @"PlanReservation_bottom_alert_quantified_title"
+#define PlanReservation_bottom_alert_quantified_amount_rule  @"PlanReservation_bottom_alert_quantified_amount_rule"
+#define PlanHarvestPage_cell_quantitative_amount_title_key @"PlanHarvestPage_cell_quantitative_amount_title_key"
+#define PlanHarvestPage_cell_release_amount_title_key @"PlanHarvestPage_cell_release_amount_title_key"
+
+//MARK: - 参与 - 待转款
+#define PlanJoinRecordDetailsPage_waiting_transfer_navigation_title_key  @"PlanJoinRecordDetailsPage_waiting_transfer_navigation_title_key"
+#define PlanJoinRecordDetailsPage_waiting_transfer_bottom_btn_title_key  @"PlanJoinRecordDetailsPage_waiting_transfer_bottom_btn_title_key"
+#define PlanJoinRecordDetailsPage_waiting_transfer_rule_text_key  @"PlanJoinRecordDetailsPage_waiting_transfer_rule_text_key"
+#define PlanJoinRecordDetailsPage_waiting_transfer_countdown_left_title_key  @"PlanJoinRecordDetailsPage_waiting_transfer_countdown_left_title_key"
+
+//MARK: - 参与 - 已完成
+#define PlanJoinRecordDetailsPage_finished_navigation_title_key  @"PlanJoinRecordDetailsPage_finished_navigation_title_key"
+#define PlanJoinRecordDetailsPage_finished_bottom_btn_title_key  @"PlanJoinRecordDetailsPage_finished_bottom_btn_title_key"
+#define PlanJoinRecordDetailsPage_finished_rule_text_key  @"PlanJoinRecordDetailsPage_finished_rule_text_key"
+
+//MARK: - 打包中
+#define PlanJoinRecordDetailsPage_wait_package_bottom_btn_title_key  @"PlanJoinRecordDetailsPage_wait_package_bottom_btn_title_key"
+#define PlanJoinRecordDetailsPage_return_bottom_btn_title_key  @"PlanJoinRecordDetailsPage_return_bottom_btn_title_key"
+
+
+//MARK: - 收获 - 排单期
+#define PlanHarvestRecordDetailsPage_queuing_harvest_record_key  @"PlanHarvestRecordDetailsPage_queuing_harvest_record_key"
+#define PlanHarvestRecordDetailsPage_queuing_wait_confirm_key  @"PlanHarvestRecordDetailsPage_queuing_wait_confirm_key"
+#define PlanHarvestRecordDetailsPage_queuing_harvest_confirm_key  @"PlanHarvestRecordDetailsPage_queuing_harvest_confirm_key"
+#define PlanHarvestRecordDetailsPage_queuing_harvest_account_key  @"PlanHarvestRecordDetailsPage_queuing_harvest_account_key"
+
+#define PlanHarvestRecordDetailsPage_queuing_order_navigation_title_key  @"PlanHarvestRecordDetailsPage_queuing_order_navigation_title_key"
+#define PlanHarvestRecordDetailsPage_queuing_order_bottom_btn_title_key  @"PlanHarvestRecordDetailsPage_queuing_order_bottom_btn_title_key"
+#define PlanHarvestRecordDetailsPage_queuing_order_rule_title_key @"PlanHarvestRecordDetailsPage_queuing_order_rule_title_key"
+#define PlanHarvestRecordDetailsPage_queuing_order_rule_text_key  @"PlanHarvestRecordDetailsPage_queuing_order_rule_text_key"
+//MARK: - 收获 - 待确定
+#define PlanHarvestRecordDetailsPage_wait_confirm_navigation_title_key  @"PlanHarvestRecordDetailsPage_wait_confirm_navigation_title_key"
+#define PlanHarvestRecordDetailsPage_wait_confirm_bottom_btn_title_key  @"PlanHarvestRecordDetailsPage_wait_confirm_bottom_btn_title_key"
+#define PlanHarvestRecordDetailsPage_wait_confirm_rule_text_key  @"PlanHarvestRecordDetailsPage_wait_confirm_rule_text_key"
+#define PlanHarvestRecordDetailsPage_wait_confirm_countdown_left_title_key  @"PlanHarvestRecordDetailsPage_wait_confirm_countdown_left_title_key"
+
+//MARK: - 收获 - 已完成
+#define PlanHarvestRecordDetailsPage_finish_navigation_title_key  @"PlanHarvestRecordDetailsPage_finish_navigation_title_key"
+#define PlanHarvestRecordDetailsPage_finish_bottom_btn_title_key  @"PlanHarvestRecordDetailsPage_finish_bottom_btn_title_key"
+
+//MARK: - 转款确认
+#define WalletTransferConfirm_navigation_title_key  @"WalletTransferConfirm_navigation_title_key"
+#define WalletTransferConfirm_left_transfer_amount_text_key  @"WalletTransferConfirm_left_transfer_amount_text_key"
+#define WalletTransferConfirm_enter_payment_pwd_text_key  @"WalletTransferConfirm_enter_payment_pwd_text_key"
+#define WalletTransferConfirm_reminder_text_key  @"WalletTransferConfirm_reminder_text_key"
+#define WalletTransferConfirm_bottom_btn_title_key  @"WalletTransferConfirm_bottom_btn_title_key"
+#define WalletTransferConfirm_minesfee_text_key  @"WalletTransferConfirm_minesfee_text_key"
+
+//MARK: - 收款确认
+#define WalletReceiptConfirm_navigation_title_key  @"WalletReceiptConfirm_navigation_title_key"
+#define WalletReceiptConfirm_left_transfer_amount_text_key  @"WalletReceiptConfirm_left_transfer_amount_text_key"
+#define WalletReceiptConfirm_enter_payment_pwd_text_key  @"WalletReceiptConfirm_enter_payment_pwd_text_key"
+#define WalletReceiptConfirm_bottom_btn_title_key  @"WalletReceiptConfirm_bottom_btn_title_key"
+#define WalletReceiptConfirm_bottom_lbl_text_key  @"WalletReceiptConfirm_bottom_lbl_text_key"
+#define WalletReceiptConfirm_total_amout_left_title_key  @"WalletReceiptConfirm_total_amout_left_title_key"
+#define WalletReceiptConfirm_trading_fee_left_title_key  @"WalletReceiptConfirm_trading_fee_left_title_key"
+
+//MARK: - 资金池页面
+#define MavrodiCapitalPoolPage_navigation_title_key  @"MavrodiCapitalPoolPage_navigation_title_key"
+#define MavrodiCapitalPoolPage_reminder_text_key  @"MavrodiCapitalPoolPage_reminder_text_key"
+#define MavrodiCapitalPoolPage_left_btn_title_key  @"MavrodiCapitalPoolPage_left_btn_title_key"
+#define MavrodiCapitalPoolPage_right_btn_title_key  @"MavrodiCapitalPoolPage_right_btn_title_key"
+#define MavrodiCapitalPoolPage_bottom_btn_title_key  @"MavrodiCapitalPoolPage_bottom_btn_title_key"
+
+//MARK: - 排单池页面
+#define MavrodiPlanRowPoolPage_navigation_title_key  @"MavrodiPlanRowPoolPage_navigation_title_key"
+#define MavrodiPlanRowPoolPage_game_reminder_text_key  @"MavrodiPlanRowPoolPage_game_reminder_text_key"
+#define MavrodiPlanRowPoolPage_amount_reminder_text_key  @"MavrodiPlanRowPoolPage_amount_reminder_text_key"
+#define MavrodiPlanRowPoolPage_bottom_btn_title_key  @"MavrodiPlanRowPoolPage_bottom_btn_title_key"
+
+//MARK: - 收获矿池
+#define HarvestpoolPage_navigation_title_key  @"HarvestpoolPage_navigation_title_key"
+#define HarvestpoolPage_bottom_btn_title_key  @"HarvestpoolPage_bottom_btn_title_key"
+#define HarvestpoolPage_game_reminder_text_key  @"HarvestpoolPage_game_reminder_text_key"
+
+
+//MARK: - 提取收益页面
+#define ExtractionEanringsPage_navigation_title_key  @"ExtractionEanringsPage_navigation_title_key"
+#define ExtractionEanringsPage_amount_textfield_placeholder_key  @"ExtractionEanringsPage_amount_textfield_placeholder_key"
+#define ExtractionEanringsPage_content_bottom_textlbl_text_key  @"ExtractionEanringsPage_content_bottom_textlbl_text_key"
+#define ExtractionEanringsPage_bottom_btn_title_key  @"ExtractionEanringsPage_bottom_btn_title_key"
+#define ExtractionEanringsPage_amount_empty_prompt_text_key  @"ExtractionEanringsPage_amount_empty_prompt_text_key"
+
+//MARK: - 修改密码
+#define WalletModifyPasswordPage_navigation_title_key  @"WalletModifyPasswordPage_navigation_title_key"
+#define WalletModifyPasswordPage_current_password_title_key  @"WalletModifyPasswordPage_current_password_title_key"
+#define WalletModifyPasswordPage_new_password_title_key  @"WalletModifyPasswordPage_new_password_title_key"
+#define WalletModifyPasswordPage_re_password_title_key  @"WalletModifyPasswordPage_re_password_title_key"
+#define WalletModifyPasswordPage_bottom_lbl_text_key  @"WalletModifyPasswordPage_bottom_lbl_text_key"
+#define WalletModifyPasswordPage_bottom_right_btn_title_key @"WalletModifyPasswordPage_bottom_right_btn_title_key"
+#define WalletModifyPasswordPage_tipsBL_lbl_text_key @"WalletModifyPasswordPage_tipsBL_lbl_text_key"
+#define WalletModifyPasswordPage_tipsLL_lbl_text_key @"WalletModifyPasswordPage_tipsLL_lbl_text_key"
+#define WalletModifyPasswordPage_tipsN_lbl_text_key @"WalletModifyPasswordPage_tipsN_lbl_text_key"
+#define WalletModifyPasswordPage_tips8_lbl_text_key @"WalletModifyPasswordPage_tips8_lbl_text_key"
+#define WalletModifyPasswordPage_confirm_btn_title_key  @"WalletModifyPasswordPage_confirm_btn_title_key"
+
+#define WalletModifyPasswordPage_current_pwd_empty_prompt_key  @"WalletModifyPasswordPage_current_pwd_empty_prompt_key"
+#define WalletModifyPasswordPage_new_pwd_empty_prompt_key  @"WalletModifyPasswordPage_new_pwd_empty_prompt_key"
+#define WalletModifyPasswordPage_re_pwd_empty_prompt_key  @"WalletModifyPasswordPage_re_pwd_empty_prompt_key"
+#define WalletModifyPasswordPage_pwd_differ_empty_prompt_key  @"WalletModifyPasswordPage_pwd_differ_empty_prompt_key"
+#define WalletModifyPasswordPage_pwd_lessthan_empty_prompt_key @"WalletModifyPasswordPage_pwd_lessthan_empty_prompt_key"
+
+
+//MARK: - 钱包设置
+#define WalletSettingsPage_navigation_title_key  @"WalletSettingsPage_navigation_title_key"
+#define WalletSettingsPage_item_modify_pwd_title_key  @"WalletSettingsPage_item_modify_pwd_title_key"
+#define WalletSettingsPage_item_bucket_privatekey_title_key  @"WalletSettingsPage_item_bucket_privatekey_title_key"
+#define WalletSettingsPage_item_export_publickey_title_key  @"WalletSettingsPage_item_export_publickey_title_key"
+#define WalletSettingsPage_delete_btn_title_key  @"WalletSettingsPage_delete_btn_title_key"
+#define WalletSettingsPage_bottom_infoLbl_text_key  @"WalletSettingsPage_bottom_infoLbl_text_key"
+#define WalletSettingsPage_amount_uint_text_key  @"WalletSettingsPage_amount_uint_text_key"
+
+//MARK: - 输入钱包密码弹框
+#define WalletEnterPasswordAlert_wallet_pwd_top_lbl_text_key  @"WalletEnterPasswordAlert_wallet_pwd_top_lbl_text_key"
+#define WalletEnterPasswordAlert_wallet_pwd_textfield_placeholder_key  @"WalletEnterPasswordAlert_wallet_pwd_textfield_placeholder_key"
+#define WalletEnterPasswordAlert_wallet_pwd_enter_empty_prompt_text_key  @"WalletEnterPasswordAlert_wallet_pwd_enter_empty_prompt_text_key"
+#define WalletEnterPasswordAlert_login_pwd_top_lbl_text_key  @"WalletEnterPasswordAlert_login_pwd_top_lbl_text_key"
+#define WalletEnterPasswordAlert_login_pwd_textfield_placeholder_key  @"WalletEnterPasswordAlert_login_pwd_textfield_placeholder_key"
+
+//MARK: - 创建钱包首页
+#define NewWalletHomePage_create_btn_title_key  @"NewWalletHomePage_create_btn_title_key"
+#define NewWalletHomePage_export_btn_title_key  @"NewWalletHomePage_export_btn_title_key"
+#define NewWalletHomePage_bottom_lbl_text_key  @"NewWalletHomePage_bottom_lbl_text_key"
+#define NewWalletHomePage_multi_lbl_text_key  @"NewWalletHomePage_multi_lbl_text_key"
+
+#define WalletHomePage_remindder_text_key  @"WalletHomePage_remindder_text_key"
+#define WalletHomePage_remindder_detail_text_key  @"WalletHomePage_remindder_detail_text_key"
+#define WalletHomePage_later_btn_title_key  @"WalletHomePage_later_btn_title_key"
+#define WalletHomePage_back_up_now_btn_title_key  @"WalletHomePage_back_up_now_btn_title_key"
+
+//MARK: - 导入钱包页面
+#define ExportWalletPage_navigation_title_key  @"ExportWalletPage_navigation_title_key"
+#define ExportWalletPage_setpwd_lbl_title_key  @"ExportWalletPage_setpwd_lbl_title_key"
+#define ExportWalletPage_repwd_lbl_title_key  @"ExportWalletPage_repwd_lbl_title_key"
+#define ExportWalletPage_setpwd_textfield_placeholder_key  @"ExportWalletPage_setpwd_textfield_placeholder_key"
+#define ExportWalletPage_repwd_textfield_placeholder_key  @"ExportWalletPage_repwd_textfield_placeholder_key"
+#define ExportWalletPage_agreebtn_left_title_key  @"ExportWalletPage_agreebtn_left_title_key"
+#define ExportWalletPage_agreebtn_right_title_key  @"ExportWalletPage_agreebtn_right_title_key"
+#define ExportWalletPage_export_btn_title_key  @"ExportWalletPage_export_btn_title_key"
+#define ExportWalletPage_eth_privatekey_placeholder_key  @"ExportWalletPage_eth_privatekey_placeholder_key"
+#define ExportWalletPage_etc_privatekey_placeholder_key  @"ExportWalletPage_etc_privatekey_placeholder_key"
+#define ExportWalletPage_eth_privatekey_empty_prompt_key  @"ExportWalletPage_eth_privatekey_empty_prompt_key"
+#define ExportWalletPage_etc_privatekey_empty_prompt_key  @"ExportWalletPage_etc_privatekey_empty_prompt_key"
+
+//MARK: - 重置钱包密码页面
+#define ResetWalletPasswordPage_navigation_title_key  @"ResetWalletPasswordPage_navigation_title_key"
+#define ResetWalletPasswordPage_bottom_btn_title_key  @"ResetWalletPasswordPage_bottom_btn_title_key"
+
+//MARK: - 创建钱包页面
+#define CreateWalletPage_navigation_title_key  @"CreateWalletPage_navigation_title_key"
+#define CreateWalletPage_top_reminder_title_key  @"CreateWalletPage_top_reminder_title_key"
+#define CreateWalletPage_top_reminder_content_key  @"CreateWalletPage_top_reminder_content_key"
+#define CreateWalletPage_setpwd_lbl_title_key  @"CreateWalletPage_setpwd_lbl_title_key"
+#define CreateWalletPage_repwd_lbl_title_key  @"CreateWalletPage_repwd_lbl_title_key"
+#define CreateWalletPage_account_lbl_title_key  @"CreateWalletPage_account_lbl_title_key"
+#define CreateWalletPage_setpwd_textfield_placeholder_key  @"CreateWalletPage_setpwd_textfield_placeholder_key"
+#define CreateWalletPage_repwd_textfield_placeholder_key  @"CreateWalletPage_repwd_textfield_placeholder_key"
+#define CreateWalletPage_account_textfield_placeholder_key  @"CreateWalletPage_account_textfield_placeholder_key"
+#define CreateWalletPage_agreebtn_left_title_key  @"CreateWalletPage_agreebtn_left_title_key"
+#define CreateWalletPage_agreebtn_right_title_key  @"CreateWalletPage_agreebtn_right_title_key"
+#define CreateWalletPage_create_btn_title_key  @"CreateWalletPage_create_btn_title_key"
+
+#define CreateWalletPage_alert1_title_key  @"CreateWalletPage_alert1_title_key"
+#define CreateWalletPage_alert2_title_key  @"CreateWalletPage_alert2_title_key"
+#define CreateWalletPage_alert3_title_key  @"CreateWalletPage_alert3_title_key"
+#define CreateWalletPage_alert4_title_key  @"CreateWalletPage_alert4_title_key"
+
+//MARK: - 备份私钥
+#define BucketPrivateKeyPage_navigation_title_key  @"BucketPrivateKeyPage_navigation_title_key"
+#define BucketPrivateKeyPage_top_reminder_title_key  @"BucketPrivateKeyPage_top_reminder_title_key"
+#define BucketPrivateKeyPage_top_reminder_content_key  @"BucketPrivateKeyPage_top_reminder_content_key"
+#define BucketPrivateKeyPage_eth_lbl_title_key  @"BucketPrivateKeyPage_eth_lbl_title_key"
+#define BucketPrivateKeyPage_etc_lbl_title_key  @"BucketPrivateKeyPage_etc_lbl_title_key"
+#define BucketPrivateKeyPage_what_privatekey_btn_title_key  @"BucketPrivateKeyPage_what_privatekey_btn_title_key"
+#define BucketPrivateKeyPage_bottom_btn_title_key  @"BucketPrivateKeyPage_bottom_btn_title_key"
+#define BucketPrivateKeyPage_top_lbl_text_key  @"BucketPrivateKeyPage_top_lbl_text_key"
+
+
+//MARK: - 导出公钥
+#define ExportPublicKeyPage_navigation_title_key  @"ExportPublicKeyPage_navigation_title_key"
+#define ExportPublicKeyPage_copy_btn_title_key  @"ExportPublicKeyPage_copy_btn_title_key"
+#define ExportPublicKeyPage_eth_lbl_title_key  @"ExportPublicKeyPage_eth_lbl_title_key"
+#define ExportPublicKeyPage_etc_lbl_title_key  @"ExportPublicKeyPage_etc_lbl_title_key"
+#define ExportPublicKeyPage_item_one_title_key  @"ExportPublicKeyPage_item_one_title_key"
+#define ExportPublicKeyPage_item_two_title_key  @"ExportPublicKeyPage_item_two_title_key"
+#define ExportPublicKeyPage_item_three_title_key  @"ExportPublicKeyPage_item_three_title_key"
+#define ExportPublicKeyPage_item_one_content_key  @"ExportPublicKeyPage_item_one_content_key"
+#define ExportPublicKeyPage_item_two_content_key  @"ExportPublicKeyPage_item_two_content_key"
+#define ExportPublicKeyPage_item_three_content_key  @"ExportPublicKeyPage_item_three_content_key"
+
+//MARK: - 什么是私钥
+#define WhatIsPrivateKeyPage_navigation_title_key  @"WhatIsPrivateKeyPage_navigation_title_key"
+#define WhatIsPrivateKeyPage_what_privatekey_txt_filename_key  @"WhatIsPrivateKeyPage_what_privatekey_txt_filename_key"
+#define WhatIsPrivateKeyPage_bold_text_key  @"WhatIsPrivateKeyPage_bold_text_key"
+
+//MARK: - 钱包协议
+#define WalletProtocolPage_navigation_title_key  @"WalletProtocolPage_navigation_title_key"
+#define WalletProtocolPage_what_privatekey_txt_filename_key  @"WalletProtocolPage_what_privatekey_txt_filename_key"
+
+//MARK: - 钱包首页
+#define WalletHomePage_total_assets_title_key  @"WalletHomePage_total_assets_title_key"
+
+//MARK: - 钱包记录
+#define WalletTradingRecordPage_receipt_btn_title_key  @"WalletTradingRecordPage_receipt_btn_title_key"
+#define WalletTradingRecordPage_trasfer_btn_title_key  @"WalletTradingRecordPage_trasfer_btn_title_key"
+#define WalletTradingRecordPage_transfer_record_lbl_text_key  @"WalletTradingRecordPage_transfer_record_lbl_text_key"
+#define WalletTradingRecordPage_transfer_out_title_key  @"WalletTradingRecordPage_transfer_out_title_key"
+#define WalletTradingRecordPage_income_title_key  @"WalletTradingRecordPage_income_title_key"
+#define WalletTradingRecordPage_wait_package_title_key  @"WalletTradingRecordPage_wait_package_title_key"
+
+
+//MARK: - 钱包收款
+#define WalletReceiptPage_navigation_title_key  @"WalletReceiptPage_navigation_title_key"
+#define WalletReceiptPage_copy_btn_title_key  @"WalletReceiptPage_copy_btn_title_key"
+
+//MARK: - 钱包转账
+#define WalletTradingRecordPage_shareAddress_btn_title_key @"WalletTradingRecordPage_shareAddress_btn_title_key"
+#define WalletTransferPage_navigation_title_key  @"WalletTransferPage_navigation_title_key"
+#define WalletTransferPage_transfer_btn_title_key  @"WalletTransferPage_transfer_btn_title_key"
+#define WalletTransferPage_address_left_text_key  @"WalletTransferPage_address_left_text_key"
+#define WalletTransferPage_amount_left_text_key  @"WalletTransferPage_amount_left_text_key"
+#define WalletTransferPage_address_placeholder_text_key  @"WalletTransferPage_address_placeholder_text_key"
+#define WalletTransferPage_amount_placeholder_text_key  @"WalletTransferPage_amount_placeholder_text_key"
+#define WalletTransferPage_miner_fee_left_text_key  @"WalletTransferPage_miner_fee_left_text_key"
+#define WalletTransferPage_bottom_info_lbl_text_key  @"WalletTransferPage_bottom_info_lbl_text_key"
+#define WalletTransferPage_send_address_empty_prompt_key  @"WalletTransferPage_send_address_empty_prompt_key"
+#define WalletTransferPage_trs_amount_empty_prompt_key  @"WalletTransferPage_trs_amount_empty_prompt_key"
+
+//MARK: - 投资转账
+#define InvestmentTransferPage_navigation_title_key @"InvestmentTransferPage_navigation_title_key"
+#define InvestmentTransferPage_amount_left_text_key @"InvestmentTransferPage_amount_left_text_key"
+#define InvestmentTransferPage_balance_left_text_key @"InvestmentTransferPage_balance_left_text_key"
+
+//MARK: - 转账结果
+#define WalletTransferResultPage_navigation_title_key  @"WalletTransferResultPage_navigation_title_key"
+#define WalletTransferResultPage_transfer_successful_text_key  @"WalletTransferResultPage_transfer_successful_text_key"
+#define WalletTransferResultPage_transfer_wait_text_key  @"WalletTransferResultPage_transfer_wait_text_key"
+
+#define WalletTransferResultPage_transfer_fail_text_key  @"WalletTransferResultPage_transfer_fail_text_key"
+#define WalletTransferResultPage_bottom_btn_title_key  @"WalletTransferResultPage_bottom_btn_title_key"
+#define WalletTransferResultPage_transfer_amout_title_key  @"WalletTransferResultPage_transfer_amout_title_key"
+#define WalletTransferResultPage_transfer_time_title_key  @"WalletTransferResultPage_transfer_time_title_key"
+#define WalletTransferResultPage_transfer_out_address_title_key  @"WalletTransferResultPage_transfer_out_address_title_key"
+#define WalletTransferResultPage_receipt_address_title_key  @"WalletTransferResultPage_receipt_address_title_key"
+
+#define WalletTransferResultPage_transfer_to_text_key  @"WalletTransferResultPage_transfer_to_text_key"
+#define WalletTransferResultPage_transfer_from_text_key  @"WalletTransferResultPage_transfer_from_text_key"
+#define WalletTransferResultPage_transfer_fee_text_key  @"WalletTransferResultPage_transfer_fee_text_key"
+#define WalletTransferResultPage_transfer_height_text_key  @"WalletTransferResultPage_transfer_height_text_key"
+#define WalletTransferResultPage_transfer_txHash_text_key  @"WalletTransferResultPage_transfer_txHash_text_key"
+#define WalletTransferResultPage_transfer_time_text_key  @"WalletTransferResultPage_transfer_time_text_key"
+
+#define WalletTransferResultPage_transfer_return_title_key  @"WalletTransferResultPage_transfer_return_title_key"
+#define WalletTransferResultPage_transfer_see_more_detail_title_key  @"WalletTransferResultPage_transfer_see_more_detail_title_key"
+
+#define WalletTransferResultPage_transfer_Transfer_text_key  @"WalletTransferResultPage_transfer_Transfer_text_key"
+#define WalletTransferResultPage_transfer_Receive_text_key  @"WalletTransferResultPage_transfer_Receive_text_key"
+
+//MARK: - 系统公告
+#define AnnouncementListPage_navigation_title_key  @"AnnouncementListPage_navigation_title_key"
+#define AnnouncementListPage_cell_title_key @"AnnouncementListPage_cell_title_key"
+#define AnnouncementDetailPage_navigation_title_key @"AnnouncementDetailPage_navigation_title_key"
+//MARK: - 矿工费View
+#define MinerFeeView_miner_left_title_key  @"MinerFeeView_miner_left_title_key"
+#define MinerFeeView_left_slow_title_key  @"MinerFeeView_left_slow_title_key"
+#define MinerFeeView_left_fast_title_key  @"MinerFeeView_left_fast_title_key"
+
+//MARK: - 创建钱包 服务协议
+#define Wallet_service_agreement_text_key  @"Wallet_service_agreement_text_key"
+#define Wallet_service_confirm_title_key  @"Wallet_service_confirm_title_key"
+#define Wallet_service_agreemen_title_key  @"Wallet_service_agreemen_title_key"
+
+#define WalletHomePage_title_key  @"WalletHomePage_title_key"
+#define WalletHomePage_title2_key  @"WalletHomePage_title2_key"
+#define WalletHomePage_detail_title_key  @"WalletHomePage_detail_title_key"
+#define WalletHomePage_confirm_title_key  @"WalletHomePage_confirm_title_key"
+
+#define HarvestConfirmAlertViewPage_title_lbl_text_key  @"HarvestConfirmAlertViewPage_title_lbl_text_key"
+#define HarvestConfirmAlertViewPage_detail_lbl_text_key  @"HarvestConfirmAlertViewPage_detail_lbl_text_key"
+#define HarvestConfirmAlertViewPage_cancelBtn_title_key  @"HarvestConfirmAlertViewPage_cancelBtn_title_key"
+#define HarvestConfirmAlertViewPage_confirmBtn_title_key  @"HarvestConfirmAlertViewPage_confirmBtn_title_key"
+
+
+//MARK: - 下拉刷新
+#define MR_Refresh_header_idle  @"MR_Refresh_header_idle"
+#define MR_Refresh_header_pulling  @"MR_Refresh_header_pulling"
+#define MR_Refresh_header_pullFulling  @"MR_Refresh_header_pullFulling"
+#define MR_Refresh_header_refreshing  @"MR_Refresh_header_refreshing"
+#define MR_Refresh_header_finished  @"MR_Refresh_header_finished"
+
+
+//MARK: - 上拉加载更多
+#define MR_Refresh_footer_idle  @"MR_Refresh_footer_idle"
+#define MR_Refresh_footer_refreshing  @"MR_Refresh_footer_refreshing"
+#define MR_Refresh_footer_finished  @"MR_Refresh_footer_finished"
+#define MR_Refresh_footer_noMoreData  @"MR_Refresh_footer_noMoreData"
+#define MR_Refresh_footer_loadingFailure  @"MR_Refresh_footer_loadingFailure"
+
+//MARK: - 正在开发中提示
+#define MR_UserCenter_developing_prompt_text_key  @"MR_UserCenter_developing_prompt_text_key"
+
+//MARK: - 扫一扫
+#define MRQRCodeScanPage_navigation_title_key  @"MRQRCodeScanPage_navigation_title_key"
+#define MRQRCodeScanPage_camora_starting_prompt_key  @"MRQRCodeScanPage_camora_starting_prompt_key"
+
+//MARK: - 更新弹框
+#define MRUpdateVersioAlert_title_key  @"MRUpdateVersioAlert_title_key"
+#define MRUpdateVersioAlert_update_content_key  @"MRUpdateVersioAlert_update_content_key"
+#define MRUpdateVersioAlert_update_left_btn_title_key  @"MRUpdateVersioAlert_update_left_btn_title_key"
+#define MRUpdateVersioAlert_update_right_btn_title_key  @"MRUpdateVersioAlert_update_right_btn_title_key"
+
+
+//申请解冻账号
+#define MRPlan_Unfreeze_Account_title_key  @"MRPlan_Unfreeze_Account_title_key"
+#define MRPlan_Unfreeze_title_key  @"MRPlan_Unfreeze_title_key"
+#define MRPlan_Thaw_account_title_key  @"MRPlan_Thaw_account_title_key"
+#define MRPlan_Thaw_mail_notification_freeze_result_title_key  @"MRPlan_Thaw_mail_notification_freeze_result_title_key"
+
+
+
+
+
+
+#endif /* LocalizableStringKeyDefine_h */

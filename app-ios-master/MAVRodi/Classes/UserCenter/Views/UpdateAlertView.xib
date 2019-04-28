@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="181" id="KGk-i7-Jjw" userLabel="Update Alert View" customClass="UpdateAlertView" customModule="MAVRodi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm harvest prompt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shc-y6-63N">
+                        <rect key="frame" x="16" y="40" width="286" height="29"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                        <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeM-7l-vdY">
+                        <rect key="frame" x="26" y="83" width="266" height="150.5"/>
+                        <string key="text">Click “withdraw”, reward will no longer 
+continue to grow, assets will be transf-
+-erred to the withdraw interface, waiting 
+for withdraw platoon.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLa-Ge-O4R">
+                        <rect key="frame" x="39" y="293.5" width="240" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="QHQ-qn-AsI"/>
+                            <constraint firstAttribute="width" constant="240" id="wHm-2l-0S0"/>
+                        </constraints>
+                        <state key="normal" title="Cancel">
+                            <color key="titleColor" red="0.1647058824" green="0.73333333329999995" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="cancelAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Ghr-3y-5hq"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRx-OD-ejg">
+                        <rect key="frame" x="39" y="241.5" width="240" height="45"/>
+                        <color key="backgroundColor" red="0.1647058824" green="0.73333333329999995" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="240" id="tHw-tG-EdU"/>
+                            <constraint firstAttribute="height" constant="45" id="wLE-jh-qqX"/>
+                        </constraints>
+                        <state key="normal" title="Confirm"/>
+                        <connections>
+                            <action selector="confirmAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5nK-m1-JCH"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jLa-Ge-O4R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="39" id="1xK-ck-Arz"/>
+                    <constraint firstItem="shc-y6-63N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="3bm-VF-xIH"/>
+                    <constraint firstItem="TeM-7l-vdY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="8v4-oN-Rl5"/>
+                    <constraint firstAttribute="trailing" secondItem="MRx-OD-ejg" secondAttribute="trailing" constant="39" id="Cym-KZ-Aat"/>
+                    <constraint firstItem="TeM-7l-vdY" firstAttribute="top" secondItem="shc-y6-63N" secondAttribute="bottom" constant="14" id="DaG-ZH-zyM"/>
+                    <constraint firstAttribute="trailing" secondItem="shc-y6-63N" secondAttribute="trailing" constant="16" id="Fi6-Tl-f67"/>
+                    <constraint firstItem="MRx-OD-ejg" firstAttribute="top" secondItem="TeM-7l-vdY" secondAttribute="bottom" constant="8" id="VIk-Bz-x9u"/>
+                    <constraint firstItem="shc-y6-63N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="W74-25-p6x"/>
+                    <constraint firstAttribute="trailing" secondItem="TeM-7l-vdY" secondAttribute="trailing" constant="26" id="f0c-Fh-Pbc"/>
+                    <constraint firstItem="jLa-Ge-O4R" firstAttribute="top" secondItem="TeM-7l-vdY" secondAttribute="bottom" constant="60" id="tt9-Jz-0ln"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cancelBtn" destination="jLa-Ge-O4R" id="AYL-Sm-sof"/>
+                <outlet property="confirmBtn" destination="MRx-OD-ejg" id="rls-vb-C5m"/>
+                <outlet property="detailLabel" destination="TeM-7l-vdY" id="wWB-kG-zCE"/>
+                <outlet property="titleLabel" destination="shc-y6-63N" id="BbP-IK-7JZ"/>
+            </connections>
+            <point key="canvasLocation" x="-446.39999999999998" y="58.47076461769116"/>
+        </tableViewCell>
+    </objects>
+</document>

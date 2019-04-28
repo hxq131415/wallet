@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="WalletHomeTableHeaderView" customModule="MAVRodi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallet_home_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="OIX-CB-wa0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OIX-CB-wa0" secondAttribute="height" multiplier="751:413" id="uJi-6r-m8a"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL ASSETS ($)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avb-G8-Bo2">
+                    <rect key="frame" x="10" y="62" width="355" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1333234.128" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usb-Nm-zjy">
+                    <rect key="frame" x="101" y="97.5" width="173" height="36"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGP-ms-VVy">
+                    <rect key="frame" x="274" y="112.5" width="8.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="usb-Nm-zjy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="0MZ-h2-bQP"/>
+                <constraint firstItem="avb-G8-Bo2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="1eK-rf-6Az"/>
+                <constraint firstAttribute="trailing" secondItem="OIX-CB-wa0" secondAttribute="trailing" id="7h5-xT-Ex6"/>
+                <constraint firstItem="avb-G8-Bo2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="62" id="IjR-Ix-Iix"/>
+                <constraint firstItem="OIX-CB-wa0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VTe-Xw-occ"/>
+                <constraint firstAttribute="trailing" secondItem="avb-G8-Bo2" secondAttribute="trailing" constant="10" id="dGh-kS-DfL"/>
+                <constraint firstItem="mGP-ms-VVy" firstAttribute="bottom" secondItem="usb-Nm-zjy" secondAttribute="bottom" constant="-5" id="r1n-8x-A56"/>
+                <constraint firstItem="usb-Nm-zjy" firstAttribute="top" secondItem="avb-G8-Bo2" secondAttribute="bottom" constant="15" id="s0h-dC-KCf"/>
+                <constraint firstItem="mGP-ms-VVy" firstAttribute="leading" secondItem="usb-Nm-zjy" secondAttribute="trailing" id="vx6-ax-AZU"/>
+                <constraint firstItem="OIX-CB-wa0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zCM-LC-s36"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="topTitleLbl" destination="avb-G8-Bo2" id="bQO-Tj-G7W"/>
+                <outlet property="valueTextLbl" destination="usb-Nm-zjy" id="yae-fy-1eI"/>
+            </connections>
+            <point key="canvasLocation" x="-495" y="-429"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="wallet_home_bg.png" width="375" height="213"/>
+    </resources>
+</document>

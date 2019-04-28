@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  MAVRodi
+
+  Created by rttx on 2018/9/3.
+  Copyright © 2018年 rttx. All rights reserved.
+*/
+
+// 英文环境下App的配置信息
+
+CFBundleDisplayName = "Mavrodi";
+// 访问相机权限描述
+NSCameraUsageDescription = "'Mavrodi'Need to access your camera";
+// 访问相册权限描述
+NSPhotoLibraryUsageDescription = "'Mavrodi'Need access to your album";

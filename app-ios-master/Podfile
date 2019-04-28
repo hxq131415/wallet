@@ -1,0 +1,72 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'MAVRodi' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MAVRodi
+
+	#网络请求
+  pod 'Alamofire', '~> 4.7.3'
+  
+  #JSON
+  pod 'SwiftyJSON', '~> 4.1.0'
+  
+  #Mapper
+  pod 'ObjectMapper', '~> 3.3.0'
+  #pod 'AlamofireObjectMapper', '~> 5.0'
+
+  #TabBarController
+  pod 'ESTabBarController-swift', '~> 2.6.2'
+  
+  #Cryoto
+  pod 'CryptoSwift', '~> 0.9.0'
+  
+  #键盘管理
+  pod 'IQKeyboardManager', '~> 6.0.0'
+  
+  #自定义加载指示
+  pod 'MBProgressHUD'
+  
+  #snap autolayout第三方
+  pod 'SnapKit’, '~> 4.0.0'
+  #pod 'Masonry', '~> 1.1.0'
+  
+  #SDWebImage
+  pod 'SDWebImage', '~> 4.0'
+  
+  #图库
+  #兼容SDWebImage 4.0
+  pod 'MWPhotoBrowser', :podspec =>'https://raw.githubusercontent.com/y500/MWPhotoBrowser/master/MWPhotoBrowser.podspec'
+  
+  #图片裁剪
+  pod 'RSKImageCropper', '~> 2.1.0'
+  
+  #GZIP 数据压缩和解压缩
+  #pod 'GZIP', '~> 1.2.1'
+  
+  #JPush
+  #pod 'JPush', '~> 3.0.9'
+  
+  #生成二维码
+  pod 'EFQRCode', '~> 4.2.2'
+
+  #cell Page ViewController
+  pod 'WMPageController', '~> 2.5.2'
+
+  #WebView进度检测
+  pod 'NJKWebViewProgress', '~> 0.2.3'
+  
+  #数据库
+  pod 'FMDB', '~> 2.7.2'  
+  
+  #富文本
+  pod 'TTTAttributedLabel', '~> 2.0.0'
+  
+  #刷新
+  pod 'XREasyRefreshControl', '~> 1.2.1'
+  
+  pod 'Bugly'
+  
+end

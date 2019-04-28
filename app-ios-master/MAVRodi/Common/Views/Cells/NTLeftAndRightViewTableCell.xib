@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="55" id="KGk-i7-Jjw" customClass="NTLeftAndRightViewTableCell" customModule="TeaExpoentNet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="sssssssssssss" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnG-Gq-b6y">
+                        <rect key="frame" x="15" y="19" width="313" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="u3q-Te-iF8"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" id="xxA-rT-A6p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jas-fz-Ajk">
+                        <rect key="frame" x="0.0" y="0.0" width="383" height="1"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="ifr-Z0-iCN"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pWK-kX-0ia">
+                        <rect key="frame" x="0.0" y="53.5" width="383" height="1"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="bI6-As-YjU"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxy-mh-EjV">
+                        <rect key="frame" x="338" y="7.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="1e3-35-bSg"/>
+                            <constraint firstAttribute="height" constant="40" id="jDr-Hn-fPy"/>
+                        </constraints>
+                        <state key="normal" image="icon_details_jump.png"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jas-fz-Ajk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2ca-GL-jVX"/>
+                    <constraint firstItem="vxy-mh-EjV" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="AKF-7b-xPQ"/>
+                    <constraint firstItem="vxy-mh-EjV" firstAttribute="leading" secondItem="fnG-Gq-b6y" secondAttribute="trailing" constant="10" id="CtA-Wc-XYv"/>
+                    <constraint firstItem="fnG-Gq-b6y" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Hbm-jU-YFo"/>
+                    <constraint firstAttribute="trailing" secondItem="vxy-mh-EjV" secondAttribute="trailing" constant="5" id="JOo-3b-SgP"/>
+                    <constraint firstItem="fnG-Gq-b6y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="UmM-ZZ-zEa"/>
+                    <constraint firstItem="jas-fz-Ajk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Xot-7K-1zP"/>
+                    <constraint firstItem="pWK-kX-0ia" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Y8s-3l-wpQ"/>
+                    <constraint firstAttribute="bottom" secondItem="pWK-kX-0ia" secondAttribute="bottom" id="aw3-id-NyP"/>
+                    <constraint firstAttribute="trailing" secondItem="jas-fz-Ajk" secondAttribute="trailing" id="ffL-Nu-B5s"/>
+                    <constraint firstAttribute="trailing" secondItem="pWK-kX-0ia" secondAttribute="trailing" id="h4j-me-11N"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomSepatorLine" destination="pWK-kX-0ia" id="PbW-cu-0Vr"/>
+                <outlet property="leftTextLbl" destination="fnG-Gq-b6y" id="Bgz-F2-b5T"/>
+                <outlet property="rightBtn" destination="vxy-mh-EjV" id="ZTM-dy-daf"/>
+                <outlet property="topSepatorLine" destination="jas-fz-Ajk" id="aac-OZ-2Se"/>
+            </connections>
+            <point key="canvasLocation" x="116.5" y="63.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_details_jump.png" width="6" height="10"/>
+    </resources>
+</document>

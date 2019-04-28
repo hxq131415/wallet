@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="PlanRewardContentView" customModule="MAVRodi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="319"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_plan_reward_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="r5z-dE-iSf">
+                    <rect key="frame" x="0.0" y="0.0" width="386" height="319"/>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dzf-cV-dC0">
+                    <rect key="frame" x="20" y="212" width="346" height="42"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="iJS-hY-lDg"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="游戏收益（ETC）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfa-vi-kZC">
+                    <rect key="frame" x="140.5" y="170" width="105" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="105" id="78b-Yv-Dt2"/>
+                        <constraint firstAttribute="height" constant="22" id="Fmg-vW-EtE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.21176470589999999" green="0.35294117650000001" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_plan_reward_box.png" translatesAutoresizingMaskIntoConstraints="NO" id="lff-0N-m6q">
+                    <rect key="frame" x="121" y="-66" width="144" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="144" id="irb-PK-r3P"/>
+                        <constraint firstAttribute="height" constant="130" id="wJf-Yf-Tw4"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享奖励（ETC）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8I-cJ-hX3">
+                    <rect key="frame" x="140.5" y="72" width="105" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.21176470588235294" green="0.3529411764705882" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gWY-vi-srT">
+                    <rect key="frame" x="20" y="108" width="346" height="42"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="Du8-9E-cDv"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可提取分享奖励，为参与金额的3倍" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLj-KK-XUh">
+                    <rect key="frame" x="10" y="279" width="366" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="12" id="YV7-1A-2Jl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.21176470588235294" green="0.3529411764705882" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q8I-cJ-hX3" firstAttribute="top" secondItem="lff-0N-m6q" secondAttribute="bottom" constant="8" id="17Z-ow-Kxf"/>
+                <constraint firstItem="gWY-vi-srT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="1LH-k1-ayH"/>
+                <constraint firstItem="gWY-vi-srT" firstAttribute="top" secondItem="Q8I-cJ-hX3" secondAttribute="bottom" constant="20" id="6FI-v4-wjk"/>
+                <constraint firstAttribute="bottom" secondItem="r5z-dE-iSf" secondAttribute="bottom" id="BEp-dy-l6J"/>
+                <constraint firstItem="dzf-cV-dC0" firstAttribute="leading" secondItem="gWY-vi-srT" secondAttribute="leading" id="JHr-U3-NHK"/>
+                <constraint firstAttribute="trailing" secondItem="r5z-dE-iSf" secondAttribute="trailing" id="Olw-lg-94A"/>
+                <constraint firstItem="Yfa-vi-kZC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="P7z-Ya-xUf"/>
+                <constraint firstItem="gLj-KK-XUh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PM4-vu-j6C"/>
+                <constraint firstItem="dzf-cV-dC0" firstAttribute="trailing" secondItem="gWY-vi-srT" secondAttribute="trailing" id="aL1-UV-Vrg"/>
+                <constraint firstItem="r5z-dE-iSf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="byw-Mm-uxY"/>
+                <constraint firstItem="r5z-dE-iSf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cEG-QD-fyf"/>
+                <constraint firstItem="gLj-KK-XUh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="fm5-yw-QsZ"/>
+                <constraint firstItem="Yfa-vi-kZC" firstAttribute="top" secondItem="gWY-vi-srT" secondAttribute="bottom" constant="20" id="hbO-0H-iK0"/>
+                <constraint firstAttribute="trailing" secondItem="gWY-vi-srT" secondAttribute="trailing" constant="20" id="it4-kd-z0R"/>
+                <constraint firstItem="gLj-KK-XUh" firstAttribute="top" secondItem="dzf-cV-dC0" secondAttribute="bottom" constant="25" id="izy-Dq-0gE"/>
+                <constraint firstAttribute="top" secondItem="lff-0N-m6q" secondAttribute="bottom" constant="-64" id="jEo-bP-ujk"/>
+                <constraint firstAttribute="trailing" secondItem="gLj-KK-XUh" secondAttribute="trailing" constant="10" id="sX0-aP-pmc"/>
+                <constraint firstItem="lff-0N-m6q" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vfY-zf-Jpk"/>
+                <constraint firstItem="Q8I-cJ-hX3" firstAttribute="centerX" secondItem="lff-0N-m6q" secondAttribute="centerX" id="wjy-y8-PEm"/>
+                <constraint firstItem="dzf-cV-dC0" firstAttribute="top" secondItem="Yfa-vi-kZC" secondAttribute="bottom" constant="20" id="yvH-fX-Jxr"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundImgVw" destination="r5z-dE-iSf" id="Sch-ay-fpo"/>
+                <outlet property="bottomLbl" destination="gLj-KK-XUh" id="owO-fZ-BCD"/>
+                <outlet property="gameEnarningsTextField" destination="dzf-cV-dC0" id="dbK-l8-ifg"/>
+                <outlet property="gameTextLbl" destination="Yfa-vi-kZC" id="pee-LC-736"/>
+                <outlet property="shareTextLbl" destination="Q8I-cJ-hX3" id="RDD-la-8li"/>
+                <outlet property="sharingRewardTextField" destination="gWY-vi-srT" id="Akh-hd-sI3"/>
+            </connections>
+            <point key="canvasLocation" x="16" y="141.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_plan_reward_bg.png" width="317" height="311"/>
+        <image name="icon_plan_reward_box.png" width="144" height="129"/>
+    </resources>
+</document>
